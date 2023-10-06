@@ -162,7 +162,10 @@ export default function Quiz({
     answerSelected: null,
   });
 
-  let question = questions[quiz.currentQuestion];
+  const question =
+    quiz.currentQuestion < questions.length
+      ? questions[quiz.currentQuestion]
+      : questions[questions.length - 1];
 
   if (!question) return;
 
