@@ -824,7 +824,7 @@
         "answer": 1
       },
       {
-        "text": ". Kokia didžiausia leidžiama spinduliuotės galia B klasės leidimą užsiimti radijo mėgėjų veikla turintiems radijo mėgėjams 2 m diapazone?",
+        "text": "Kokia didžiausia leidžiama spinduliuotės galia B klasės leidimą užsiimti radijo mėgėjų veikla turintiems radijo mėgėjams 2 m diapazone?",
         "choice": [
           "1 000 W",
           "100 W",
@@ -1402,9 +1402,9 @@
       {
         "text": "Elektros srovės izoliatorius:",
         "choice": [
-          "Leidžia tekėti elektros srovei",
-          "Trukdo tekėti elektros srovei",
-          "Neturi įtakos elektros srovės tekėjimui"
+          "Leidžia tekėti elektros srovei.",
+          "Trukdo tekėti elektros srovei.",
+          "Neturi įtakos elektros srovės tekėjimui."
         ],
         "answer": 1
       },
@@ -1420,18 +1420,18 @@
       {
         "text": "Kas sudaro virpesių kontūrą?",
         "choice": [
-          "Ritė ir kondensatorius",
-          "Ritė ir rezistorius",
-          "Rezistorius ir kondensatorius"
+          "Ritė ir kondensatorius.",
+          "Ritė ir rezistorius.",
+          "Rezistorius ir kondensatorius."
         ],
         "answer": 0
       },
       {
         "text": "Kokiu būdu galima pakeisti virpesių kontūro rezonansinį dažnį?",
         "choice": [
-          "Keičiant ritės induktyvumą",
-          "Keičiant kondensatoriaus talpą",
-          "Keičiant bent vieną iš čia nurodytų parametrų"
+          "Keičiant ritės induktyvumą.",
+          "Keičiant kondensatoriaus talpą.",
+          "Keičiant bent vieną iš čia nurodytų parametrų."
         ],
         "answer": 2
       },
@@ -2539,14 +2539,14 @@
       {
         "text": "Kas yra radijo mėgėjas?",
         "choice": [
-          "Asmuo, savo rankose laikantis leidimą.",
-          "Asmuo, pasiskolinęs leidimą.",
+          "Fizinis asmuo, mokantis naudotis radijo ryšio stotimi.",
+          "Fizinis asmuo, pasigaminęs radijo ryšio stotį.",
           "Fizinis asmuo, užsiimantis radijo ryšio veikla asmeniniais ir su verslu nesusijusiais tikslais ir iš jos nesipelnantis."
         ],
         "answer": 2
       },
       {
-        "text": "Nuo kelerių metų asmenims išduodami A klasės leidimai radijo mėgėjų veiklai?",
+        "text": "Nuo kelerių metų asmenims išduodami A klasės leidimai užsiimti radijo mėgėjų veikla?",
         "choice": [
           "Nuo 16 metų.",
           "Nuo 18 metų.",
@@ -2555,7 +2555,7 @@
         "answer": 2
       },
       {
-        "text": "Koks Lietuvos Respublikos ryšių reguliavimo tarnybos išduoto leidimo radijo mėgėjų veiklai galiojimo laikas?",
+        "text": "Koks maksimalus Lietuvos Respublikos ryšių reguliavimo tarnybos išduoto leidimo užsiimti radijo mėgėjų veikla terminas?",
         "choice": [
           "5 metai.",
           "3 metai.",
@@ -2564,11 +2564,11 @@
         "answer": 0
       },
       {
-        "text": "Kas turi teisę gauti keturių ženklų radijo šaukinį?",
+        "text": "Kas turi teisę gauti leidimą naudoti keturženklį radijo šaukinį?",
         "choice": [
           "Visi radijo mėgėjai.",
-          "Tik A klasės leidimą radijo mėgėjų veiklai turintys radijo mėgėjai ir klubai.",
-          "Tik B klasės leidimą radijo mėgėjų veiklai turintys radijo mėgėjai."
+          "Radijo mėgėjas, ne mažiau kaip 5 metus turintis A klasės leidimą užsiimti radijo mėgėjų veikla.",
+          "B klasės leidimą radijo mėgėjų veiklai turintis radijo mėgėjas."
         ],
         "answer": 1
       },
@@ -2576,26 +2576,26 @@
         "text": "Kam gali būti išduotas leidimas naudoti radijo šaukinį?",
         "choice": [
           "Tik radijo mėgėjui.",
-          "Tik klubui.",
-          "Radijo mėgėjui ir klubui."
+          "Tik radijo mėgėjų klubui.",
+          "Radijo mėgėjui ir radijo mėgėjų klubui."
         ],
         "answer": 2
       },
       {
-        "text": "Kam gali būti išduotas leidimas radijo mėgėjų veiklai?",
+        "text": "Kam gali būti išduotas leidimas užsiimti radijo mėgėjų veikla?",
         "choice": [
           "Tik radijo mėgėjui.",
-          "Tik klubui.",
-          "Radijo mėgėjui ir klubui."
+          "Tik radijo mėgėjų klubui.",
+          "Radijo mėgėjui ir radijo mėgėjų klubui."
         ],
         "answer": 0
       },
       {
         "text": "Kada skiriamas proginis radijo šaukinys?",
         "choice": [
-          "Sukakus 1 metams nuo leidimo radijo mėgėjų veiklai išdavimo dienos.",
-          "Minint įvairius įsimintinus įvykius arba datas.",
-          "Leidimo radijo mėgėjų veiklai išdavimo proga, sudarytas iš specialios raidžių ir (arba) skaičių sekos."
+          "Sukakus 1 metams nuo leidimo užsiimti radijo mėgėjų veikla išdavimo dienos.",
+          "Radijo mėgėjo ar radijo mėgėjų klubo prašymu įsimintiniems įvykiams arba progoms paminėti.",
+          "Leidimo užsiimti radijo mėgėjų veikla išdavimo proga, sudarytas iš specialios raidžių ir (arba) skaičių sekos."
         ],
         "answer": 1
       },
@@ -2603,13 +2603,13 @@
         "text": "Kas turi teisę gauti proginį radijo šaukinį?",
         "choice": [
           "Tik radijo mėgėjai.",
-          "Tik klubai.",
-          "Tik A klasės leidimą radijo mėgėjų veiklai turintys radijo mėgėjai ir klubai."
+          "Tik radijo mėgėjų klubai.",
+          "Tik A klasės leidimą užsiimti radijo mėgėjų veikla turintys radijo mėgėjai ir radijo mėgėjų klubai."
         ],
         "answer": 2
       },
       {
-        "text": "Kieno rekomendaciją būtina pateikti Lietuvos Respublikos ryšių reguliavimo tarnybai, norint gauti leidimą, kuriame įrašytas proginis radijo šaukinys?",
+        "text": "Kieno rekomendaciją būtina pateikti Lietuvos Respublikos ryšių reguliavimo tarnybai, norint gauti leidimą naudoti proginį radijo šaukinį?",
         "choice": [
           "Lietuvos Respublikoje veikiančios visuomeninės radijo mėgėjų organizacijos.",
           "Rekomendacijos pateikti nereikia.",
@@ -2618,92 +2618,92 @@
         "answer": 1
       },
       {
-        "text": "Kam gali būti išduotas laikinas leidimas radijo mėgėjų veiklai?",
+        "text": "Kam gali būti išduotas laikinas leidimas užsiimti radijo mėgėjų veikla?",
         "choice": [
-          "Radijo mėgėjui, laikinai atvykusiam į Lietuvos Respubliką ir neturinčiam leidimo, atitinkančio CEPT rekomendacijoje T/R 61-01 „CEPT radijo mėgėjo leidimas“ nustatytus reikalavimus.",
-          "Radijo mėgėjui, laikinai atvykusiam į Lietuvos Respubliką ir turinčiam leidimą, atitinkantį CEPT rekomendacijoje T/R 61-01 „CEPT radijo mėgėjo leidimas“ nustatytus reikalavimus.",
+          "Asmeniui, laikinai atvykusiam į Lietuvos Respubliką, jei jam leidimą užsiimti radijo mėgėjų veikla išdavusi valstybė neįgyvendino CEPT rekomendacijos T/R 61-01 „CEPT radijo mėgėjo leidimas“ ar CEPT rekomendacijos ECC/REC (05)06 „CEPT pradedančiojo radijo mėgėjo leidimas“ ir leidimas užsiimti radijo mėgėjų veikla neatitinka atitinkamos CEPT rekomendacijos.",
+          "Radijo mėgėjui, laikinai atvykusiam į Lietuvos Respubliką ir turinčiam užsienio valstybėje išduotą leidimą užsiimti radijo mėgėjų veikla, kuris pripažįstamas Lietuvos Respublikoje.",
           "Radijo mėgėjui, norinčiam laikinai užsiimti radijo mėgėjų veikla."
         ],
         "answer": 0
       },
       {
-        "text": "Koks Lietuvos Respublikos ryšių reguliavimo tarnybos išduoto leidimo naudoti radijo šaukinį galiojimo laikas, kai skiriamas proginis radijo šaukinys?",
+        "text": "Koks maksimalus Lietuvos Respublikos ryšių reguliavimo tarnybos išduoto leidimo naudoti proginį radijo šaukinį terminas?",
         "choice": [
-          "Iki 60 dienų.",
-          "Iki 90 dienų.",
-          "Iki 30 dienų."
+          "60 dienų.",
+          "2 mėnesiai.",
+          "30 dienų."
         ],
         "answer": 0
       },
       {
         "text": "Kam gali būti išduotas leidimas naudoti radijo šaukinį retransliatoriaus ar švyturio identifikavimui?",
         "choice": [
-          "Tik A klasės leidimą radijo mėgėjų veiklai turintiems radijo mėgėjams.",
-          "Tik A klasės leidimą radijo mėgėjų veiklai turintiems radijo mėgėjams ir klubams.",
-          "Radijo mėgėjams ir klubams."
+          "Tik A klasės leidimą užsiimti radijo mėgėjų veikla turintiems radijo mėgėjams.",
+          "Tik radijo mėgėjų klubams ir A klasės leidimą užsiimti radijo mėgėjų veikla turintiems radijo mėgėjams.",
+          "Radijo mėgėjams ir radijo mėgėjų klubams."
         ],
         "answer": 1
       },
       {
-        "text": "Koks leidimas gali būti išduotas klubui?",
+        "text": "Koks leidimas gali būti išduotas radijo mėgėjų klubui?",
         "choice": [
-          "Leidimas radijo mėgėjų veiklai.",
+          "Leidimas užsiimti radijo mėgėjų veikla.",
           "Leidimas naudoti radijo šaukinį.",
-          "Leidimas radijo mėgėjų veiklai ir leidimas naudoti radijo šaukinį."
+          "Leidimas užsiimti radijo mėgėjų veikla ir leidimas naudoti radijo šaukinį."
         ],
         "answer": 1
       },
       {
-        "text": "Koks leidimas gali būti išduoti radijo mėgėjui?",
+        "text": "Koks leidimas gali būti išduotas radijo mėgėjui?",
         "choice": [
-          "Leidimas radijo mėgėjų veiklai.",
+          "Leidimas užsiimti radijo mėgėjų veikla.",
           "Leidimas naudoti radijo šaukinį.",
-          "Leidimas radijo mėgėjų veiklai ir leidimas naudoti radijo šaukinį"
+          "Leidimas užsiimti radijo mėgėjų veikla ir leidimas naudoti radijo šaukinį."
         ],
         "answer": 2
       },
       {
-        "text": "Kur skelbiama informacija apie išduotus leidimus radijo mėgėjų veiklai?",
+        "text": "Kur skelbiama informacija apie išduotus leidimus užsiimti radijo mėgėjų veikla?",
         "choice": [
-          "Lietuvos Respublikos ryšių reguliavimo tarnybos interneto tinklalapyje.",
+          "Lietuvos Respublikos ryšių reguliavimo tarnybos interneto svetainėje www.rrt.lt.",
           "Lietuvos Respublikos ryšių reguliavimo tarnybos skelbimų lentoje.",
           "Oficialiame leidinyje „Valstybės žinios“."
         ],
         "answer": 0
       },
       {
-        "text": "Leidimo radijo mėgėjų veiklai galiojimas gali būti panaikintas iki jame nurodyto termino pabaigos, jei radijo mėgėjas:",
+        "text": "Leidimas užsiimti radijo mėgėjų veikla gali būti panaikintas iki jame nurodyto termino pabaigos, jei radijo mėgėjas:",
         "choice": [
-          "Pateikia prašymą Lietuvos Respublikos ryšių reguliavimo tarnybai dėl leidimo radijo mėgėjų veiklai panaikinimo.",
-          "Padaro esminį Teisės užsiimti radijo mėgėjų veikla suteikimo tvarkos ir užsiėmimo šia veikla sąlygų aprašo bei kitų teisės aktų, reglamentuojančių radijo dažnių ir radijo ryšio įrenginių naudojimą, pažeidimą.",
+          "Pateikia prašymą Lietuvos Respublikos ryšių reguliavimo tarnybai dėl leidimo užsiimti radijo mėgėjų veikla panaikinimo.",
+          "Radijo mėgėjas nesilaiko Teisės užsiimti radijo mėgėjų veikla suteikimo tvarkos ir užsiėmimo šia veikla sąlygų apraše VII skyriaus reikalavimų arba pakartotinai pažeidžia kitus aprašo reikalavimus.",
           "Abiem aukščiau nurodytais atvejais."
         ],
         "answer": 2
       },
       {
-        "text": "Išduoto leidimo radijo mėgėjų veiklai galiojimo terminas baigiasi. Naujo leidimo gavimui būtina pateikti prašymą Lietuvos Respublikos ryšių reguliavimo tarnybai ir:",
+        "text": "Išduoto leidimo užsiimti radijo mėgėjų veikla galiojimo terminas baigiasi. Naujo leidimo gavimui būtina pateikti prašymą Lietuvos Respublikos ryšių reguliavimo tarnybai ir:",
         "choice": [
-          "Išlaikyti egzaminus.",
-          "Išlaikyti egzaminus bei sumokėti Lietuvos Respublikos ryšių reguliavimo tarnybos nustatytus užmokesčius.",
-          "Sumokėti Lietuvos Respublikos ryšių reguliavimo tarnybos nustatytus užmokesčius."
+          "Išlaikyti radijo mėgėjų kvalifikacinį egzaminą.",
+          "Išlaikyti radijo mėgėjų kvalifikacinį egzaminą bei sumokėti Lietuvos Respublikos ryšių reguliavimo tarnybos nustatytus užmokesčius.",
+          "Sumokėti valstybės rinkliavą už leidimo užsiimti radijo mėgėjų veikla išdavimą."
         ],
         "answer": 2
       },
       {
-        "text": "Būtina gauti pataisytą leidimą radijo mėgėjų veiklai, jei:",
+        "text": "Pasikeitus leidime užsiimti radijo mėgėjų veikla nurodytiems duomenims:",
         "choice": [
-          "Jame įrašyti duomenys neatitinka leidimo turėtojo duomenų.",
-          "Iki jo galiojimo termino pabaigos liko 30 dienų.",
-          "Pasikeitė jį išdavusios institucijos pavadinimas."
+          "Radijo mėgėjas turi teisę kreiptis į Tarnybą dėl naujo leidimo užsiimti radijo mėgėjų veikla išdavimo.",
+          "Radijo mėgėjas privalo kreiptis į Tarnybą dėl naujo leidimo užsiimti radijo mėgėjų veikla išdavimo.",
+          "Išlaikyti radijo mėgėjų kvalifikacinį egzaminą"
         ],
-        "answer": 0
+        "answer": 1
       },
       {
-        "text": "Radijo šaukinį perduoti privaloma ne rečiau, kaip kartą per:",
+        "text": "Radijo šaukinį perduoti privaloma:",
         "choice": [
-          "3 min.",
-          "5 min.",
-          "10 min."
+          "Ne rečiau kaip kas 3 min.",
+          "Kiekvieno radijo ryšio seanso pradžioje ir pabaigoje, bet ne rečiau kaip kas 5 minutes.",
+          "Ne rečiau kaip kas 10 min."
         ],
         "answer": 1
       },
@@ -2712,7 +2712,7 @@
         "choice": [
           "Radijo šaukinį būtina kartoti 3 kartus.",
           "Būtina naudoti automatinį radijo šaukinio siuntimo būdą.",
-          "Radijo šaukinio simbolius būtina perduoti aiškiai, išvengiant galimų dviprasmiškumų."
+          "Radijo šaukinį būtina perduoti aiškiai, išvengiant dviprasmiškumo."
         ],
         "answer": 2
       },
@@ -2726,7 +2726,7 @@
         "answer": 1
       },
       {
-        "text": "Kuris būdas įsitikinti, kad Jūsų nešiojamos radijo stoties signalai pasiekia retransliatorių, yra teisingas?",
+        "text": "Kuris būdas įsitikinti, kad Jūsų nešiojamos radijo ryšio stoties signalai pasiekia retransliatorių, yra teisingas?",
         "choice": [
           "Kelis kartus nuspausti ir atleisti siuntimo mygtuką bei klausytis, ar „atsako“ retransliatorius.",
           "Tris kartus perduoti „QRZ“ ir klausytis ar „atsako“ retransliatorius.",
@@ -2735,7 +2735,7 @@
         "answer": 2
       },
       {
-        "text": "Kokiais simboliais galima papildyti radijo šaukinį, naudojant radijo stotį oro laive?",
+        "text": "Kokiais simboliais galima papildyti radijo šaukinį, naudojant radijo ryšio stotį orlaivyje?",
         "choice": [
           "/am.",
           "/m.",
@@ -2744,7 +2744,7 @@
         "answer": 0
       },
       {
-        "text": "Kokiais simboliais galima papildyti radijo šaukinį, naudojant radijo stotį valstybės vidaus vandenyse esančiame laive?",
+        "text": "Kokiais simboliais galima papildyti radijo šaukinį, naudojant radijo ryšio stotį laive?",
         "choice": [
           "/m.",
           "/mm.",
@@ -2753,52 +2753,25 @@
         "answer": 0
       },
       {
-        "text": "Kokiais simboliais galima papildyti radijo šaukinį, naudojant radijo stotį tarptautiniuose vandenyse esančiame laive?",
+        "text": "Kuri organizacija užtikrina racionalų, efektyvų ir ekonomišką radijo spektro naudojimą pasauliniu mastu?",
         "choice": [
-          "/m.",
-          "/mm.",
-          "/p."
-        ],
-        "answer": 1
-      },
-      {
-        "text": "Kuri organizacija palaiko ir plečia tarptautinį bendradarbiavimą tam, kad būtų racionaliai naudojamos visos telekomunikacijų priemonės visame pasaulyje?",
-        "choice": [
-          "Tarptautinė radijo mėgėjų sąjunga.",
+          "Tarptautinė radijo mėgėjų sąjunga (IARU).",
           "Tarptautinė radijo ryšių sąjunga.",
-          "Tarptautinė telekomunikacijų sąjunga."
+          "Tarptautinė telekomunikacijų sąjunga (ITU)."
         ],
         "answer": 2
       },
       {
-        "text": "Kas nustato įvairių valstybių radijo šaukinių prefiksus?",
+        "text": "Kas nustato valstybių radijo šaukinių prefiksus?",
         "choice": [
-          "Tarptautinė telekomunikacijų sąjunga.",
-          "Tarptautinė radijo mėgėjų sąjunga.",
+          "Tarptautinė telekomunikacijų sąjunga (ITU).",
+          "Tarptautinė radijo mėgėjų sąjunga (IARU).",
           "Tarptautinė radijo ryšių sąjunga."
         ],
         "answer": 0
       },
       {
-        "text": "Kas atstovauja pasaulio radijo mėgėjams Tarptautinėje telekomunikacijų sąjungoje?",
-        "choice": [
-          "Lietuvos radijo mėgėjų draugija.",
-          "Lietuvos Respublikos ryšių reguliavimo tarnyba.",
-          "Tarptautinė radijo mėgėjų sąjunga."
-        ],
-        "answer": 2
-      },
-      {
-        "text": "Kas atstovauja Lietuvos radijo mėgėjams Tarptautinėje radijo mėgėjų sąjungoje?",
-        "choice": [
-          "Lietuvos Respublikos ryšių reguliavimo tarnyba.",
-          "Lietuvos radijo mėgėjų draugija.",
-          "Lietuvos radijo ryšio mėgėjų asociacija."
-        ],
-        "answer": 1
-      },
-      {
-        "text": "ITU pirmasis rajonas apima:",
+        "text": "ITU pirmasis regionas apima:",
         "choice": [
           "Europą, Afriką ir dalį Azijos.",
           "Australiją ir Aziją.",
@@ -2807,7 +2780,7 @@
         "answer": 0
       },
       {
-        "text": "ITU antrasis rajonas apima:",
+        "text": "ITU antrasis regionas apima:",
         "choice": [
           "Pietų Ameriką ir Australiją.",
           "Europą, Afriką ir dalį Azijos.",
@@ -2816,7 +2789,7 @@
         "answer": 2
       },
       {
-        "text": "ITU trečiasis rajonas apima:",
+        "text": "ITU trečiasis regionas apima",
         "choice": [
           "Šiaurės ir Pietų Ameriką.",
           "Europą, Afriką ir dalį Azijos.",
@@ -2825,7 +2798,7 @@
         "answer": 2
       },
       {
-        "text": "Kuriame ITU rajone yra Lietuvos Respublika?",
+        "text": "Kuriame ITU regione yra Lietuva?",
         "choice": [
           "Pirmame.",
           "Antrame.",
@@ -2843,142 +2816,124 @@
         "answer": 1
       },
       {
-        "text": "Kokios klasės leidimas radijo mėgėjų veiklai yra CEPT leidimo ekvivalentas?",
+        "text": "Kokios klasės leidimas užsiimti radijo mėgėjų veikla atitinka CEPT rekomendaciją T/R 61-01 „CEPT radijo mėgėjo leidimas“?",
         "choice": [
-          "A klasės leidimas.",
-          "B klasės leidimas.",
-          "C klasės leidimas."
+          "A klasės.",
+          "B klasės.",
+          "C klasės."
         ],
         "answer": 0
       },
       {
-        "text": "Ką reiškia įrašas „CEPT leidimo ekvivalentas“?",
+        "text": "Kokias teises suteikia CEPT rekomendaciją T/R 61-01 „CEPT radijo mėgėjo leidimas“ atitinkantis leidimas jo turėtojui, jam laikinai atvykus į kitą valstybę, kuri įgyvendino šią rekomendaciją?",
         "choice": [
-          "Leidimas radijo mėgėjų veiklai gali būti keičiamas į CEPT klasės leidimą.",
-          "Leidimas radijo mėgėjų veiklai galioja visose CEPT šalyse.",
-          "Leidimas radijo mėgėjų veiklai atitinka CEPT leidimui keliamus reikalavimus."
-        ],
-        "answer": 2
-      },
-      {
-        "text": "Kuriame CEPT dokumente nustatyti reikalavimai leidimui radijo mėgėjų veiklai?",
-        "choice": [
-          "CEPT rekomendacijoje T/R 61-01.",
-          "CEPT rekomendacijoje T/R 61-02.",
-          "CEPT rekomendacijoje T/R 61-03."
-        ],
-        "answer": 0
-      },
-      {
-        "text": "Kokias teises suteikia CEPT leidimas jo turėtojui, jam laikinai atvykus į kitą valstybę, kuri įgyvendino CEPT rekomendaciją T/R 61-01 „CEPT radijo mėgėjo leidimas“?",
-        "choice": [
-          "Gauti tos valstybės atatinkamos organizacijos skiriamą šaukinį.",
-          "Naudotis radijo stotimi, atsižvelgiant į toje valstybėje galiojančius teisės aktus.",
-          "Naudotis radijo stotimi, kurios maksimali išėjimo galia neviršija 1kW ."
+          "Gauti toje valstybėje skiriamą radijo šaukinį.",
+          "Užsiimti radijo mėgėjų veikla, laikantis tos valstybės teisės aktų reikalavimų aktus.",
+          "Naudotis radijo ryšio stotimi, kurios didžiausia leidžiama spinduliuotės galia neviršija 1 kW."
         ],
         "answer": 1
       },
       {
-        "text": "Kur galioja CEPT leidimas?",
+        "text": "Kur galioja CEPT rekomendaciją T/R 61-01 „CEPT radijo mėgėjo leidimas“ atitinkantis leidimas?",
         "choice": [
           "Valstybėse, kurios įgyvendino CEPT rekomendaciją T/R 61-01 „CEPT radijo mėgėjo leidimas“.",
           "Valstybėse, kurios įgyvendino CEPT rekomendaciją T/R 61-02 „Darnusis radijo mėgėjų egzaminų sertifikatas“.",
-          "CEPT šalyse."
+          "Valstybėse CEPT narėse."
         ],
         "answer": 0
       },
       {
-        "text": "CEPT leidimas suteikia teisę naudotis:",
+        "text": "CEPT rekomendaciją T/R 61-01 „CEPT radijo mėgėjo leidimas“ atitinkantis leidimas suteikia teisę naudotis:",
         "choice": [
-          "Tik mažos galios radijo stotimi.",
-          "Bet kuria radijo stotimi, atsižvelgiant į galiojančius teisės aktus.",
-          "Tik judriąja ar nešiojama radijo stotimi."
+          "Tik mažos galios radijo ryšio stotimi.",
+          "Radijo ryšio stotimi, kuri naudojama laikantis teisės aktuose nustatytų nepažeidžia.",
+          "Tik judriąja ar nešiojama radijo ryšio stotimi."
         ],
         "answer": 1
       },
       {
         "text": "Kam radijo mėgėjas turi teisę leisti naudoti jam skirtą radijo šaukinį?",
         "choice": [
-          "Kitam radijo mėgėjui.",
-          "Klubui.",
-          "Mokymo tikslais asmeniui, neturinčiam leidimo radijo mėgėjų veiklai."
+          "Kitam galiojantį leidimą užsiimti radijo mėgėjų veikla turinčiam radijo mėgėjui, taip pat radijo mėgėjo prižiūrimam asmeniui radijo mėgėjų veiklos propagavimo ar mokymo užsiimti radijo mėgėjų veikla tikslais.",
+          "Radijo mėgėjų klubui.",
+          "Radijo mėgėjų kvalifikacinį egzaminą išlaikiusiam, tačiau dar neturinčiam leidimo užsiimti radijo mėgėjų veikla asmeniui."
         ],
         "answer": 2
       },
       {
-        "text": "Kaip teisingai perduoti radijo šaukinį, naudojantis nešiojama radijo stotimi pagal CEPT leidimą užsienio valstybėje?",
+        "text": "Kaip teisingai perduoti radijo šaukinį, naudojantis nešiojama radijo ryšio stotimi užsienio valstybėje, pripažįstančioje radijo mėgėjo turimą nacionalinį leidimą?",
         "choice": [
-          "Turi būti nuosekliai siunčiami šalies, kurioje naudojama radijo stotis, prefiksas, trupmenos ženklas („/“) ir skirtas nacionalinis radijo šaukinys.",
-          "Turi būti nuosekliai siunčiami šalies, kurioje naudojama radijo stotis, prefiksas, trupmenos ženklas („/“), skirtas nacionalinis radijo šaukinys ir papildomi ženklai „/mm“ arba „/am“.",
-          "Turi būti nuosekliai siunčiami skirtas nacionalinis radijo šaukinys, trupmenos ženklas („/“), šalies, kurioje naudojama radijo stotis, prefiksas ir papildomi ženklai „/p“."
+          "Nuosekliai perduodami šalies, kurioje naudojama radijo ryšio stotis, prefiksas, simbolis „/“ ir radijo mėgėjui skirtas nacionalinis radijo šaukinys.",
+          "Nuosekliai perduodami šalies, kurioje naudojama radijo ryšio stotis, prefiksas, simbolis „/“, radijo mėgėjui skirtas nacionalinis radijo šaukinys ir papildomi ženklai „/mm“ arba „/am“.",
+          "Nuosekliai perduodami skirtas nacionalinis radijo šaukinys, simbolis „/“, šalies, kurioje naudojama radijo ryšio stotis, prefiksas ir papildomi ženklai „/p“."
         ],
         "answer": 0
       },
       {
-        "text": "HAREC yra dokumentas, patvirtinantis, kad jo turėtojas:",
+        "text": "HAREC pažymėjimas yra dokumentas, patvirtinantis, kad jo turėtojas:",
         "choice": [
-          "Gali naudotis radijo stotimi pagal CEPT rekomendacijos T/R 61-01 „CEPT radijo mėgėjo leidimas“ nurodymus.",
-          "Išlaikė egzaminą pagal CEPT rekomendacijos T/R 61-02 „Darnusis radijo mėgėjų egzaminų pažymėjimas“ nurodymus.",
-          "Užmokėjo už CEPT programos egzamino laikymą."
+          "Gali naudotis radijo ryšio stotimi, vadovaudamasis CEPT rekomendacija T/R 61-01 „CEPT radijo mėgėjo leidimas“.",
+          "Išlaikė radijo mėgėjų kvalifikacinį egzaminą, atitinkantį Europos pašto ir telekomunikacijų administracijų konferencijos (CEPT) rekomendaciją T/R 61-02 „Darnusis radijo mėgėjų egzamino pažymėjimas“.",
+          "Užmokėjo už CEPT programos egzamino laikymą"
         ],
         "answer": 1
       },
       {
-        "text": "Kada išduodamas HAREC?",
+        "text": "Kada asmeniui išduodamas HAREC pažymėjimas?",
         "choice": [
-          "Išlaikius B lygio egzaminą.",
-          "Išlaikius A lygio egzaminą.",
+          "Išlaikius B lygio radijo mėgėjų kvalifikacinį egzaminą.",
+          "Išlaikius A lygio radijo mėgėjų kvalifikacinį egzaminą.",
           "Abiem nurodytais atvejais."
         ],
         "answer": 1
       },
       {
-        "text": "HAREC suteikia jo turėtojui teisę:",
+        "text": "HAREC pažymėjimas suteikia jo turėtojui teisę:",
         "choice": [
-          "Pervežti radijo stotį per valstybinę sieną.",
-          "Gauti leidimą radijo mėgėjų veiklai valstybėje, kuri įgyvendino CEPT rekomendaciją T/R 61-02 „Darnusis radijo mėgėjų egzaminų pažymėjimas“, be kvalifikacijos tikrinimo.",
-          "Naudotis radijo stotimi pagal CEPT rekomendacijos T/R 61-01 „CEPT radijo mėgėjo leidimas“ nurodymus."
+          "Pervežti radijo ryšio stotį per valstybinę sieną.",
+          "Gauti leidimą užsiimti radijo mėgėjų veikla valstybėje, kuri įgyvendino CEPT rekomendaciją T/R 61-02 „Darnusis radijo mėgėjų egzaminų pažymėjimas“, be radijo mėgėjo kvalifikacijos tikrinimo.",
+          "Naudotis radijo ryšio stotimi, vadovaudamasis CEPT rekomendacija T/R 61-01 „CEPT radijo mėgėjo leidimas“."
         ],
         "answer": 1
       },
       {
-        "text": "Kas yra svarbiausia įrengiant radijo stotį?",
+        "text": "Kas yra svarbiausia įrengiant radijo ryšio stotį?",
         "choice": [
           "Turėti Lietuvos Respublikos ryšių reguliavimo tarnybos išduotą leidimą radijo mėgėjų veiklai.",
           "Visus darbus atlikti taip, kad nekiltų grėsmė žmonių sveikatai, gyvybei bei turtui.",
-          "Patogiai išdėstyti visą radijo stoties įrangą."
+          "Patogiai išdėstyti visą radijo ryšio stoties įrangą."
         ],
         "answer": 1
       },
       {
-        "text": "Kas yra svarbiausia naudojantis radijo stotimi?",
+        "text": "Kas yra svarbiausia naudojantis radijo ryšio stotimi?",
         "choice": [
-          "Radijo stotimi naudotis taip, kad nekiltų grėsmė žmonių sveikatai, gyvybei ir turtui.",
-          "Privaloma turėti Lietuvos Respublikos ryšių reguliavimo tarnybos išduotą radijo stoties patikrinimo aktą.",
+          "Radijo ryšio stotimi naudotis taip, kad nekiltų grėsmė žmonių sveikatai, gyvybei ir turtui.",
+          "Privaloma turėti Lietuvos Respublikos ryšių reguliavimo tarnybos išduotą radijo ryšio stoties patikrinimo aktą.",
           "Visų aparatų metaliniai korpusai turi būti sujungti tarpusavyje."
         ],
         "answer": 0
       },
       {
-        "text": "Kaip turėtų būti valdoma radijo stotis?",
+        "text": "Kokie reikalavimai keliami naudojantis nuotoliniu būdu valdoma radijo ryšio stotimi?",
         "choice": [
-          "Bet kuriuo priimtinu būdu.",
-          "Tiesiogiai arba nuotoliniu būdu.",
-          "Tik tiesiogiai radijo mėgėjo."
+          "Radijo ryšio stotyje turi būti įrengtos priemonės, užtikrinančios galimybę nedelsiant nutraukti radijo signalų siuntimą.",
+          "Radijo mėgėjas privalo būti netoli radijo ryšio stoties.",
+          "Radijo mėgėjas privalo turėti galimybę išjungti radijo ryšio stotį per 24 val."
         ],
         "answer": 0
       },
       {
-        "text": "Koks papildomas leidimas būtinas, norint naudotis nešiojama ar kilnojama radijo stotimi?",
+        "text": "Kaip turi būti pažymėta nuotoliniu būdu valdoma radijo ryšio stotis, įrengta jos savininkui nepriklausančiame objekte?",
         "choice": [
-          "Lietuvos Respublikos ryšių ministerijos leidimas.",
-          "Lietuvos Respublikos ryšių reguliavimo tarnybos leidimas.",
-          "Papildomas leidimas nereikalingas."
+          "Radijo ryšio stoties pažymėti nereikia.",
+          "Radijo ryšio stotis privalo būti pažymėta, nurodant jos savininko vardą.",
+          "Radijo ryšio stotis privalo būti pažymėta, nurodant jos savininko telefono ryšio numerį,"
         ],
         "answer": 2
       },
       {
-        "text": "Koks papildomas leidimas būtinas, norint naudotis judriąja radijo stotimi?",
+        "text": "Koks papildomas leidimas būtinas, norint naudotis judriąja radijo ryšio stotimi?",
         "choice": [
           "Papildomas leidimas nereikalingas.",
           "Lietuvos Respublikos susisiekimo ministerijos leidimas.",
@@ -2987,11 +2942,11 @@
         "answer": 0
       },
       {
-        "text": "Kas atsakingas už tai, kad klube radijo stotimi būtų naudojamasi pagal Lietuvos Respublikos ryšių reguliavimo tarnybos nustatytas sąlygas?",
+        "text": "Kas atsakingas už tai, kad radijo mėgėjų klubo radijo ryšio stotimi būtų naudojamasi laikantis Lietuvos Respublikos ryšių reguliavimo tarnybos nustatytų sąlygų?",
         "choice": [
-          "Klubas teisės aktų nustatyta tvarka.",
+          "Radijo mėgėjų klubas teisės aktų nustatyta tvarka.",
           "Lietuvos Respublikos ryšių reguliavimo tarnyba.",
-          "Asmuo, kuriam leista naudotis ta radijo stotimi."
+          "Asmuo, kuriam leista naudotis ta radijo ryšio stotimi."
         ],
         "answer": 0
       },
@@ -2999,170 +2954,71 @@
         "text": "Kas yra retransliatorius?",
         "choice": [
           "Specialus radijo signalų komutatorius.",
-          "Radijo stotis, veikianti duplekso režimu.",
-          "Radijo stotis, automatiškai atkartojanti kitų stočių signalus."
+          "Radijo ryšio stotis, veikianti duplekso režimu.",
+          "Radijo ryšio stotis, automatiškai atkartojanti kitų radijo ryšio stočių signalus ir skirta radijo ryšio atstumui padidinti."
         ],
         "answer": 2
       },
       {
-        "text": "Kas yra radijo švyturys?",
+        "text": "Kas yra radijo mėgėjų radijo švyturys?",
         "choice": [
           "Raudonos spalvos šviestuvas, skirtas radijo antenai apšviesti tamsiuoju paros metu.",
-          "Radijo įrenginys, naudojamas jūroje atstumui iki kranto matuoti.",
-          "Radijo stotis, spinduliuojanti signalus, skirtus radijo bangų sklidimui tirti arba stebėti."
+          "Radijo ryšio įrenginys, naudojamas jūroje atstumui iki kranto matuoti.",
+          "Radijo ryšio stotis, siunčianti signalus, skirtus radijo bangų sklidimui tirti arba stebėti."
         ],
         "answer": 2
-      },
-      {
-        "text": "Kas atsako už žalą, padarytą radijo stoties įrengimo metu?",
-        "choice": [
-          "Radijo stoties savininkas.",
-          "Lietuvos Respublikos ryšių reguliavimo tarnyba.",
-          "Asmuo, leidęs įrengti radijo stotį."
-        ],
-        "answer": 0
-      },
-      {
-        "text": "Kas suprantama kaip antena pagal Teisės užsiimti radijo mėgėjų veikla suteikimo tvarką ir užsiėmimo šia veikla sąlygų aprašą?",
-        "choice": [
-          "Įrenginys, skirtas laisvai sklindančioms radijo bangoms priimti ar perduoti, kartu su fizinėmis signalų perdavimo linijomis bei laikančiomis konstrukcijomis.",
-          "Įrenginys, skirtas laisvai sklindančioms radijo bangoms priimti ar perduoti, be fizinių signalų perdavimo linijų bei laikančių konstrukcijų.",
-          "Įrenginys, skirtas laisvai sklindančioms radijo bangoms priimti ar perduoti."
-        ],
-        "answer": 0
       },
       {
         "text": "Kuris reikalavimas svarbiausias įrengiant anteną?",
         "choice": [
           "Svarbu nesugadinti statomos antenos elementų.",
           "Darbai, atliekami antenos įrengimo metu, neturi sukelti grėsmės žmonių saugumui ir turtui.",
-          "Turėti leidimą radijo mėgėjų veiklai."
+          "Turėti leidimą užsiimti radijo mėgėjų veikla."
         ],
         "answer": 1
       },
       {
-        "text": "Kas svarbu atsitiktinio antenos lūžimo, trūkimo, virtimo ir panašiais atvejais?",
+        "text": "Kada radijo mėgėjas ar klubas privalo užregistruoti radijo ryšio stotį Lietuvos Respublikos ryšių reguliavimo tarnyboje?",
         "choice": [
-          "Arti antenos neturi būti gelžbetoninių pastatų.",
-          "Visi antenos elementai turi būti nudažyti gerai iš tolo matoma spalva.",
-          "Nė viena antenos dalis neturi prisiliesti prie elektros energijos perdavimo arba fizinių telekomunikacijų linijų."
-        ],
-        "answer": 2
-      },
-      {
-        "text": "Kas atsako už žalą, padarytą radijo mėgėjo antenos įrengimo metu?",
-        "choice": [
-          "Lietuvos Respublikos ryšių reguliavimo tarnyba.",
-          "Radijo mėgėjas.",
-          "Asmenys, padėję įrengti anteną."
+          "Privalo užregistruoti visas naudojamas radijo ryšio stotis.",
+          "Kai pageidauja naudoti radijo dažnius (kanalus), kuriems naudoti Radijo dažnių (kanalų), kuriuos galima naudoti be atskiro leidimo, sąraše nustatyta sąlyga užregistruoti radijo ryšio stotį.",
+          "Radijo ryšio stočių registruoti nereikia."
         ],
         "answer": 1
       },
       {
-        "text": "Kuriuo būdu radijo mėgėjai turi teisę prisijungti prie skaitmeninių tinklų?",
+        "text": "Užsiimant radijo mėgėjų veikla leidžiama naudoti:",
         "choice": [
-          "Bet kuriuo būdu, įskaitant internetą ir sujungiamąsias telekomunikacijų linijas.",
-          "Tik naudojantis radijo stotimis.",
-          "Tik per internetą ir radijo stotis."
-        ],
-        "answer": 0
-      },
-      {
-        "text": "Kas yra privaloma radijo mėgėjams, naudojantiems skaitmenines stotis?",
-        "choice": [
-          "Teikti radijo mėgėjams kokybiškas skaitmeninio ryšio paslaugas.",
-          "Imtis visų įmanomų priemonių tam, kad visi vartotojai galėtų prisijungti prie skaitmeninių tinklų.",
-          "Imtis visų įmanomų priemonių tam, kad išoriniai vartotojai – ne radijo mėgėjai – jokiomis aplinkybėmis negalėtų prisijungti prie radijo mėgėjų skaitmeninių tinklų."
-        ],
-        "answer": 2
-      },
-      {
-        "text": "Naudojant radijo šaukinį „NOCALL“ draudžiama jungtis prie skaitmeninės stoties todėl, kad:",
-        "choice": [
-          "Šis radijo šaukinys yra nelegalus.",
-          "Šis radijo šaukinys sudarytas tik iš raidžių.",
-          "Šio radijo šaukinio negali retransliuoti kai kurios skaitmeninės stotys."
-        ],
-        "answer": 0
-      },
-      {
-        "text": "Kokie gali būti skaitmeninių stočių radijo šaukiniai?",
-        "choice": [
-          "Leidime radijo mėgėjų veiklai įrašyti radijo šaukiniai, papildyti raidiniais identifikatoriais.",
-          "Lietuvos Respublikos ryšių reguliavimo tarnybos skirti radijo šaukiniai, papildyti skaitiniais identifikatoriais.",
-          "Tik leidime radijo mėgėjų veiklai ar leidime naudoti radijo šaukinį įrašyti radijo šaukiniai."
+          "Teisės užsiimti radijo mėgėjų veikla suteikimo tvarkos ir užsiėmimo šia veikla sąlygų apraše nurodytus radijo dažnius.",
+          "Radijo dažnių (kanalų), kuriuos galima naudoti be atskiro leidimo, sąraše radijo mėgėjų tarnybai priskirtus radijo dažnius.",
+          "CEPT rekomendacijoje T/R 61-01 nurodytus radijo dažnius."
         ],
         "answer": 1
       },
       {
-        "text": "Kuris iš čia pateiktų radijo šaukinių gali būti naudojamas skaitmeninės stoties identifikavimui?",
+        "text": "Koks leidimas išduodamas radijo mėgėjų klubui?",
         "choice": [
-          "LY1AAA/A.",
-          "LY1AAA-4.",
-          "LY1AAA/4."
-        ],
-        "answer": 1
-      },
-      {
-        "text": "Užsiimant radijo mėgėjų veikla radijo stotis leidžiama naudoti tik:",
-        "choice": [
-          "Teisės užsiimti radijo mėgėjų veikla suteikimo tvarkos ir užsiėmimo šia veikla sąlygų aprašo 2 priede nurodytais dažniais.",
-          "Teisės užsiimti radijo mėgėjų veikla suteikimo tvarkos ir užsiėmimo šia veikla sąlygų aprašo 2 priede nurodytais dažniais, atsižvelgiant į IARU rekomenduojamą diapazonų paskirstymą.",
-          "CEPT rekomendacijoje T/R 61-01 nurodytais dažniais."
-        ],
-        "answer": 1
-      },
-      {
-        "text": "Koks leidimas išduodamas klubui?",
-        "choice": [
-          "Leidimas radijo mėgėjų veiklai.",
+          "Leidimas užsiimti radijo mėgėjų veikla.",
           "Leidimas naudoti radijo šaukinį.",
-          "Laikinas leidimas radijo mėgėjų veiklai."
+          "Laikinas leidimas užsiimti radijo mėgėjų veikla."
         ],
         "answer": 1
       },
       {
-        "text": "Koks leidimas gali būti išduotas radijo mėgėjui, laikinai atvykusiam į Lietuvos Respubliką ir neturinčiam leidimo, atitinkančio CEPT rekomendacijoje T/R 61-01 „CEPT radijo mėgėjo leidimas“ nustatytų reikalavimų?",
+        "text": "Koks leidimas gali būti išduotas radijo mėgėjui, laikinai atvykusiam į Lietuvos Respubliką, jei užsienio valstybėje jam išduotas leidimas užsiimti radijo mėgėjų veikla nepripažįstamas Lietuvos Respublikoje",
         "choice": [
-          "Leidimas radijo mėgėjų veiklai.",
+          "10 metų galiojantis leidimas užsiimti radijo mėgėjų veikla.",
           "Leidimas naudoti radijo šaukinį.",
-          "Laikinas leidimas radijo mėgėjų veiklai."
+          "Laikinas leidimas užsiimti radijo mėgėjų veikla."
         ],
         "answer": 2
       },
       {
-        "text": "Kas turi teisę atlikti radijo mėgėjų radijo stočių techninę apžiūrą?",
+        "text": "Kas turi teisę atlikti radijo mėgėjų radijo ryšio stočių apžiūrą ir patikrinimą?",
         "choice": [
           "Savivaldybės įgaliotas pareigūnas.",
           "Techninių tyrimų centro inspektorius.",
           "Lietuvos Respublikos ryšių reguliavimo tarnybos įgaliotas pareigūnas."
-        ],
-        "answer": 2
-      },
-      {
-        "text": "Prieš pradėdamas radijo stoties apžiūrą, Lietuvos Respublikos ryšių reguliavimo tarnybos įgaliotas pareigūnas turi pateikti:",
-        "choice": [
-          "Lietuvos Respublikos ryšių reguliavimo tarnybos išduotą tarnybinį pažymėjimą.",
-          "Įgaliojimą atlikti apžiūrą.",
-          "Leidimą atlikti apžiūrą."
-        ],
-        "answer": 0
-      },
-      {
-        "text": "Kas turi dalyvauti radijo stoties techninės apžiūros metu?",
-        "choice": [
-          "3 liudininkai.",
-          "Radijo mėgėjas, klubo vadovas arba jo įgaliotas asmuo.",
-          "Policijos atstovas."
-        ],
-        "answer": 1
-      },
-      {
-        "text": "Kaip įvertinami radijo mėgėjo ar klubo veiksmai, jei neleidžiama atlikti radijo stoties techninės apžiūros?",
-        "choice": [
-          "Radijo mėgėjui ar klubui skiriama 100 Lt bauda.",
-          "Konfiskuojama turima radijo aparatūra.",
-          "Naudojimasis radijo stotimi laikomas neteisėtu."
         ],
         "answer": 2
       },
@@ -3178,43 +3034,25 @@
       {
         "text": "Radijo dažnių, kuriuos radijo mėgėjams leista naudoti antrine teise, juostose:",
         "choice": [
-          "Draudžiama sukelti trikdžius kitoms radijo stotims, veikiančioms tais radijo dažniais pirmine teise.",
-          "Draudžiama naudoti galingesnes nei 100 W radijo stotis.",
-          "Radijo stotys, veikiančios pirmine teise, neturi sukelti trikdžių radijo mėgėjų radijo stotims."
+          "Draudžiama sukelti radijo trukdžius teisėtai veikiančioms kitų radijo ryšio tarnybų stotims, naudojančioms radijo dažnius pirmine teise .",
+          "Draudžiama naudoti galingesnes nei 100 W galios radijo ryšio stotis.",
+          "Radijo ryšio stotys, veikiančios pirmine teise, neturi sukelti radijo trukdžių radijo mėgėjų radijo ryšio stotims."
         ],
         "answer": 0
       },
       {
-        "text": "Kuriais radijo mėgėjams skirtais dažniais draudžiami ryšiai su kitais radijo mėgėjais?",
+        "text": "Kuriais radijo mėgėjams skirtais radijo dažniais draudžiami radijo ryšiai su kitais radijo mėgėjais?",
         "choice": [
           "Nuo 29000 kHz iki 29700 kHz.",
-          "Dažniais, skirtais Tarptautinės švyturių programos (IBP) radijo stotims.",
-          "Nėra tokių dažnių."
+          "Radijo dažniais, skirtais Tarptautinės švyturių programos (IBP) radijo ryšio stotims.",
+          "Nėra tokių radijo dažnių."
         ],
         "answer": 2
       },
       {
-        "text": "Kurie radijo mėgėjų radijo ryšiai yra leidžiami, nesant ypatingų atvejų?",
+        "text": "Kada leidžiamas radijo ryšys tarp radijo mėgėjų ir kitų radijo ryšio tarnybų stočių?",
         "choice": [
-          "Tik tarp radijo mėgėjų stočių.",
-          "Su radijo stotimis, veikiančiomis radijo mėgėjams skirtais radijo dažniais.",
-          "Su stotimis, kurios kviečia ryšiui radijo mėgėjus."
-        ],
-        "answer": 0
-      },
-      {
-        "text": "Kada draudžiami radijo ryšiai tarp dviejų skirtingų valstybių radijo mėgėjų?",
-        "choice": [
-          "Stichinių ar joms prilygstančių nelaimių metu.",
-          "Kai bent viena iš tų valstybių prieštarauja tokiems ryšiams.",
-          "Kai trečioji valstybė prieštarauja tokiems ryšiams."
-        ],
-        "answer": 1
-      },
-      {
-        "text": "Kokie yra ypatingi atvejai, kai leidžiamas ryšys tarp radijo mėgėjų ir kitų radijo ryšio tarnybų stočių?",
-        "choice": [
-          "Kai kitų radijo ryšio tarnybų radijo stotys radijo mėgėjams skirtais dažniais siunčia nelaimės signalus.",
+          "Kai kitų radijo ryšio tarnybų radijo ryšio stotys radijo mėgėjams skirtais dažniais siunčia nelaimės signalus.",
           "Stichinių ar joms prilygstančių nelaimių metu.",
           "Visais aukščiau nurodytais atvejais."
         ],
@@ -3228,96 +3066,6 @@
           "„HILFE“– telegrafu, „SOS“– telefonu."
         ],
         "answer": 0
-      },
-      {
-        "text": "Kokios yra radijo mėgėjams skirto dažnių diapazono ribos pagal IARU 1-ojo rajono radijo dažnių planą?",
-        "choice": [
-          "1800–2000 kHz.",
-          "1810–2000 kHz.",
-          "1750–1900 kHz."
-        ],
-        "answer": 1
-      },
-      {
-        "text": "Kokios yra radijo mėgėjams skirto dažnių diapazono ribos pagal IARU 1-ojo rajono radijo dažnių planą?",
-        "choice": [
-          "3500–3800 kHz.",
-          "3400–3700 kHz.",
-          "3600–3900 kHz."
-        ],
-        "answer": 0
-      },
-      {
-        "text": "Kokios yra radijo mėgėjams skirto dažnių diapazono ribos pagal IARU 1-ojo rajono radijo dažnių planą?",
-        "choice": [
-          "7000–7200 kHz.",
-          "7000–7100 kHz.",
-          "7000–7300 kHz."
-        ],
-        "answer": 0
-      },
-      {
-        "text": "Kokios yra radijo mėgėjams skirto dažnių diapazono ribos pagal IARU 1-ojo rajono radijo dažnių planą?",
-        "choice": [
-          "14100–14300 kHz.",
-          "14000–14450 kHz.",
-          "14000–14350 kHz."
-        ],
-        "answer": 2
-      },
-      {
-        "text": "Kokios yra radijo mėgėjams skirto dažnių diapazono ribos pagal IARU 1-ojo rajono radijo dažnių planą?",
-        "choice": [
-          "21150–21500 kHz.",
-          "21000–21450 kHz.",
-          "21000–21350 kHz."
-        ],
-        "answer": 1
-      },
-      {
-        "text": "Kokios yra radijo mėgėjams skirto dažnių diapazono ribos pagal IARU 1-ojo rajono radijo dažnių planą?",
-        "choice": [
-          "28000–29700 kHz.",
-          "28000–28700 kHz.",
-          "27045–29600 kHz."
-        ],
-        "answer": 0
-      },
-      {
-        "text": "Kokios yra radijo mėgėjams skirto dažnių diapazono ribos pagal IARU 1-ojo rajono radijo dažnių planą?",
-        "choice": [
-          "50–52 MHz.",
-          "52–54 MHz.",
-          "50–54 MHz."
-        ],
-        "answer": 0
-      },
-      {
-        "text": "Kokios yra radijo mėgėjams skirto dažnių diapazono ribos pagal IARU 1-ojo rajono radijo dažnių planą?",
-        "choice": [
-          "144–148 MHz.",
-          "146–148 MHz.",
-          "144–146 MHz."
-        ],
-        "answer": 2
-      },
-      {
-        "text": "Kokios yra radijo mėgėjams skirto dažnių diapazono ribos pagal IARU 1-ojo rajono radijo dažnių planą?",
-        "choice": [
-          "420–430 MHz.",
-          "430–450 MHz.",
-          "430–440 MHz."
-        ],
-        "answer": 2
-      },
-      {
-        "text": "Kokios yra radijo mėgėjams skirto dažnių diapazono ribos pagal IARU 1-ojo rajono radijo dažnių planą?",
-        "choice": [
-          "1230–1330 MHz.",
-          "1240–1300 MHz.",
-          "1260–1300 MHz."
-        ],
-        "answer": 1
       },
       {
         "text": "Kuriuo darbo režimu galima naudoti siųstuvą, kai leistinas maksimalus signalo juostos plotis yra 200 Hz?",
@@ -3347,10 +3095,10 @@
         "answer": 1
       },
       {
-        "text": "Kuriais radijo dažniais leidžiama veikti retransliatoriams?",
+        "text": "Kuriais radijo dažniais Lietuvoje leidžiama veikti retransliatoriams?",
         "choice": [
           "Visais radijo mėgėjams skirtais dažniais.",
-          "Tik nurodytais IARU rekomendacijose.",
+          "Radijo dažnių (kanalų), kuriuos galima naudoti be atskiro leidimo, sąraše nurodytais radijo dažniais arba radijo dažniais, kuriuos naudoti Ryšių reguliavimo tarnyba išdavė individualų leidimą.",
           "Tik virš 144 MHz."
         ],
         "answer": 1
@@ -3367,14 +3115,14 @@
       {
         "text": "Kuris teiginys teisingas?",
         "choice": [
-          "Radijo stotis, veikianti retransliatoriaus dažniu, turi pirmenybę retransliatoriaus atžvilgiu.",
-          "Retransliatorius neturi sukelti trikdžių kitoms tuo pačiu dažniu veikiančioms radijo stotims.",
-          "Radijo stotis, veikianti retransliatoriaus dažniu, neturi sukelti jam trikdžių."
+          "Radijo ryšio stotis, veikianti retransliatoriaus dažniu, turi pirmenybę retransliatoriaus atžvilgiu.",
+          "Retransliatorius neturi sukelti trikdžių kitoms tuo pačiu dažniu veikiančioms radijo ryšio stotims.",
+          "Radijo ryšio stotis, veikianti retransliatoriaus dažniu, neturi sukelti jam trikdžių."
         ],
         "answer": 2
       },
       {
-        "text": "Didesnius trikdžius retransliatoriui gali sukelti radijo stotis, veikianti:",
+        "text": "Didesnius trikdžius retransliatoriui gali sukelti radijo ryšio stotis, veikianti:",
         "choice": [
           "Retransliatoriaus priėmimo dažniu.",
           "Retransliatoriaus išėjimo dažniu.",
@@ -3383,52 +3131,43 @@
         "answer": 0
       },
       {
-        "text": "Kokiais radijo dažniais gali veikti švyturiai?",
+        "text": "Kokiais radijo dažniais Lietuvoje gali veikti radijo švyturiai?",
         "choice": [
-          "Visais radijo mėgėjams skirtais dažniais.",
-          "Tik nurodytais IARU rekomendacijose.",
+          "Visais radijo mėgėjams skirtais radijo dažniais.",
+          "Radijo dažnių (kanalų), kuriuos galima naudoti be atskiro leidimo, sąraše nurodytais radijo dažniais arba radijo dažniais, kuriuos naudoti Lietuvos Respublikos ryšių reguliavimo tarnyba išdavė individualų leidimą.",
           "Tik virš 30 MHz."
         ],
         "answer": 1
       },
       {
-        "text": "Kuriuos pranešimus draudžiama siųsti radijo mėgėjų radijo stotimis?",
+        "text": "Kuriuos pranešimus draudžiama perduoti radijo mėgėjams?",
         "choice": [
-          "Radijo operatorių pavardes ir pašto adresus.",
-          "Komercinius ir reklaminius pranešimus.",
+          "Konfidencialią informaciją, pažeidžiančią asmens privataus gyvenimo neliečiamumą.",
+          "Pranešimus, pažeidžiančius autorių, gretutines ir kitas intelektinės nuosavybės teises.",
           "Visus aukščiau nurodytus pranešimus."
-        ],
-        "answer": 1
-      },
-      {
-        "text": "Kuriuos pranešimus draudžiama siųsti radijo mėgėjų radijo stotimis?",
-        "choice": [
-          "Asmeninius pirkimo ir pardavimo pranešimus, kai siunčiama informacija tiesiogiai susijusi su radijo mėgėjų radijo stotimis.",
-          "Ne mėgėjų radijo stočių pranešimus, juos retransliuojant.",
-          "Nei vieno iš aukščiau išvardytų pranešimų."
-        ],
-        "answer": 1
-      },
-      {
-        "text": "Kurie pardavimo pranešimai per radijo mėgėjų radijo stotis yra leidžiami?",
-        "choice": [
-          "Visi nekomerciniai pardavimo pranešimai.",
-          "Visi pardavimo pranešimai, siunčiami skaitmeniniais tinklais.",
-          "Asmeniniai pirkimo ir pardavimo pranešimai, kai siunčiama informacija tiesiogiai susijusi su radijo mėgėjų radijo stotimis."
-        ],
-        "answer": 2
-      },
-      {
-        "text": "Kurių pranešimų siuntimas leidžiamas radijo mėgėjų radijo stotimis?",
-        "choice": [
-          "Radijo stočių techniniai parametrai, perduodami atviru tekstu.",
-          "Pranešimai, kurių turinys įslaptintas juos koduojant.",
-          "Informacija, pažeidžianti autorių, gretutines ir kitas intelektinės nuosavybės teises."
         ],
         "answer": 0
       },
       {
-        "text": "Kurių pranešimų siuntimas, naudojantis radijo mėgėjų radijo stotimis, leidžiamas?",
+        "text": "Kuriuos pranešimus draudžiama perduoti radijo mėgėjams?",
+        "choice": [
+          "Asmeninius pirkimo ir pardavimo pranešimus, kai perduodama informacija tiesiogiai susijusi su radijo mėgėjų veikla.",
+          "Perduoti su radijo mėgėjų veikla nesusijusius televizijos signalus.",
+          "Retransliuoti nelaimės, pagalbos ar saugos pranešimus."
+        ],
+        "answer": 1
+      },
+      {
+        "text": "Kuriuos pranešimus leidžiama perduoti radijo mėgėjams?",
+        "choice": [
+          "Radijo stočių techniniai parametrus.",
+          "Pranešimus, kurių turinys įslaptintas juos šifruojant.",
+          "Pranešimus, pažeidžiantys autorių, gretutines ir kitas intelektinės nuosavybės teises."
+        ],
+        "answer": 0
+      },
+      {
+        "text": "Kurių pranešimų siuntimas radijo mėgėjams leidžiamas?",
         "choice": [
           "Konfidenciali informacija, pažeidžianti asmens privataus gyvenimo neliečiamumą.",
           "Tikslaus laiko signalų retransliavimas.",
@@ -3439,7 +3178,7 @@
       {
         "text": "Q kodo santrumpa „QRA?“ atitinka frazę:",
         "choice": [
-          "Kaip vadinasi jūsų radijo stotis?",
+          "Kaip vadinasi jūsų radijo ryšio stotis?",
           "Ar galite susisiekti su…?",
           "Ar mano signalai suprantami?"
         ],
@@ -3457,7 +3196,7 @@
       {
         "text": "Q kodo santrumpa „QRL“ atitinka frazę:",
         "choice": [
-          "Mano radijo stotis baigia darbą.",
+          "Mano radijo ryšio stotis baigia darbą.",
           "Jūsų signalų negirdėti.",
           "Aš užsiėmęs, prašau netrukdyti."
         ],
@@ -3509,7 +3248,7 @@
         "answer": 1
       },
       {
-        "text": "Radijo ryšio metu jums trukdo kitos radijo stotys. Kurią Q kodo santrumpą vartosite, norėdami apie tai pranešti savo korespondentui?",
+        "text": "Radijo ryšio metu jums trukdo kitos radijo ryšio stotys. Kurią Q kodo santrumpą vartosite, norėdami apie tai pranešti savo korespondentui?",
         "choice": [
           "QTR.",
           "QSY.",
@@ -3518,11 +3257,11 @@
         "answer": 2
       },
       {
-        "text": "Vartojant Q kodo santrumpą, mažos išėjimo galios radijo stotį galima vadinti:",
+        "text": "Vartojant Q kodo santrumpą, mažos išėjimo galios radijo ryšio stotį galima vadinti:",
         "choice": [
-          "QRA radijo stotimi.",
-          "QRB radijo stotimi.",
-          "QRP radijo stotimi."
+          "QRA radijo ryšio stotimi.",
+          "QRB radijo ryšio stotimi.",
+          "QRP radijo ryšio stotimi."
         ],
         "answer": 2
       },
@@ -3536,7 +3275,7 @@
         "answer": 1
       },
       {
-        "text": "Negalėdamas susisiekti su tolima radijo stotimi, jūs perduodate artimos radijo stoties operatoriui:",
+        "text": "Negalėdamas susisiekti su tolima radijo ryšio stotimi, jūs perduodate artimos radijo ryšio stoties operatoriui:",
         "choice": [
           "QST.",
           "QTC.",
@@ -3556,14 +3295,14 @@
       {
         "text": "Q kodo santrumpa „QTR?“ atitinka frazę:",
         "choice": [
-          "Ar trukdo kitos radijo stotys?",
+          "Ar trukdo kitos radijo ryšio stotys?",
           "Koks tikslus laikas?",
           "Koks oras?"
         ],
         "answer": 1
       },
       {
-        "text": "Kviečiant ryšiui kitame žemyne esančią radijo stotį, turėtų būti perduodama:",
+        "text": "Kviečiant ryšiui kitame žemyne esančią radijo ryšio stotį, turėtų būti perduodama:",
         "choice": [
           "CQ.",
           "CQ DX.",
@@ -3644,15 +3383,6 @@
         "answer": 2
       },
       {
-        "text": "Ką reiškia santrumpa „FM“?",
-        "choice": [
-          "Fazės kampas.",
-          "Dažnio moduliavimas.",
-          "Dažnių diapazono nuo 88 iki 108 MHz pavadinimas."
-        ],
-        "answer": 1
-      },
-      {
         "text": "Santrumpa „PSE“ atitinka žodį:",
         "choice": [
           "Priimta.",
@@ -3675,7 +3405,7 @@
         "choice": [
           "Siųstuvas-imtuvas.",
           "Antenos derinimo prietaisas.",
-          "Skaitmeninė stotis."
+          "Skaitmeninė radijo ryšio stotis."
         ],
         "answer": 0
       },
@@ -3701,7 +3431,7 @@
         "text": "Ką reiškia santrumpa „HAM“?",
         "choice": [
           "Heterodininis antenos matuoklis.",
-          "Trumpųjų bangų radijo stotis.",
+          "Dekametrinių bangų radijo ryšio stotis.",
           "Radijo mėgėjas."
         ],
         "answer": 2
@@ -4051,7 +3781,7 @@
         "text": "Kodėl laidininko varža tekant nuolatinei srovei skiriasi nuo jo varžos esant aukštadažnei srovei?",
         "choice": [
           "Dėl paviršinio efekto.",
-          "Dėl sukūrinių srovių laidininke.",
+          "Dėl sūkurinių srovių laidininke.",
           "Dėl laidininko medžiagos nevienalytiškumo."
         ],
         "answer": 0
@@ -4246,7 +3976,7 @@
         "answer": 0
       },
       {
-        "text": "Prie televizoriaus įėjimo prijungtas filtras, praleidžiantis signalus virš 54 MHz. Kuri iš A9 pav. parodytų amplitudės-dažnio charakteristikų atspindi šio filtro savybes?",
+        "text": "Prie imtuvo įėjimo prijungtas filtras, praleidžiantis signalus virš 54 MHz. Kuri iš A9 pav. parodytų amplitudės-dažnio charakteristikų atspindi šio filtro savybes?",
         "image": "images/a9.gif",
         "choice": [
           "a.",
@@ -4582,7 +4312,7 @@
         "choice": [
           "DX ryšių užmezgimo palengvinimas.",
           "Radijo bangų sklidimo tyrimas.",
-          "Radijo ryšio zonos išplėtimas mažos galios ir judriosioms radijo stotims."
+          "Radijo ryšio zonos išplėtimas mažos galios ir judriosioms radijo ryšio stotims."
         ],
         "answer": 2
       },
@@ -4596,7 +4326,7 @@
         "answer": 0
       },
       {
-        "text": "Jūsų korespondento, naudojančio UTB balso retransliatorių, signalas trūkinėja. Ką tai reiškia?",
+        "text": "Jūsų korespondento, naudojančio labai aukštų dažnių balso retransliatorių, signalas trūkinėja. Ką tai reiškia?",
         "choice": [
           "Retransliatoriaus signalas per silpnas, todėl jo nepakanka ryšiui su korespondentu.",
           "Korespondento signalas per silpnas, todėl jo nepakanka retransliatoriaus triukšmo slopikliui „atidaryti“.",
@@ -4614,7 +4344,7 @@
         "answer": 2
       },
       {
-        "text": "Blogai suderinto FM siųstuvo spinduliuojamo signalo juostos plotis yra didesnis už leistiną. Tai sukelia trikdžius artimais dažniais veikiančioms radijo stotims. Kokia galėtų būti šio reiškinio priežastis?",
+        "text": "Blogai suderinto FM siųstuvo spinduliuojamo signalo juostos plotis yra didesnis už leistiną. Tai sukelia trikdžius artimais dažniais veikiančioms radijo ryšio stotims. Kokia galėtų būti šio reiškini priežastis?",
         "choice": [
           "Per didelis mikrofono signalo lygis.",
           "Blogas temperatūrinis režimas.",
@@ -4650,15 +4380,6 @@
         "answer": 0
       },
       {
-        "text": "Kaip galima būtų numalšinti generatoriaus trukdžius automobilio radijo stotyje?",
-        "choice": [
-          "Įjungiant filtrus maitinimo grandinėse.",
-          "Izoliuojant metalinius paviršius vieną nuo kito.",
-          "Apipurškiant visus nemetalinius paviršius antistatiku."
-        ],
-        "answer": 0
-      },
-      {
         "text": "Automobilinio generatoriaus keliamų trukdžių poveikį imtuvui galima sumažinti prijungus:",
         "choice": [
           "Tarp akumuliatoriaus gnybtų filtruojančius kondensatorius.",
@@ -4677,7 +4398,7 @@
         "answer": 2
       },
       {
-        "text": "Plačiajuostis antenos stiprintuvas įjungtas tarp TV antenos ir televizoriaus. Veikiant trumpųjų bangų siųstuvui, trikdžiai pastebimi visuose metriniuose TV kanaluose. Trikdžius galima būtų panaikinti:",
+        "text": "Plačiajuostis antenos stiprintuvas įjungtas tarp TV antenos ir televizoriaus. Veikiant dekametrinių bangų siųstuvui, trikdžiai pastebimi visuose metriniuose TV kanaluose. Trikdžius galima būtų panaikinti:",
         "choice": [
           "Įjungus žemųjų dažnių filtrą tarp TV antenos ir plačiajuosčio stiprintuvo.",
           "Įjungus aukštųjų dažnių filtrą tarp TV antenos ir plačiajuosčio stiprintuvo.",
@@ -4686,7 +4407,7 @@
         "answer": 1
       },
       {
-        "text": "Voltmetru, kurio skalė pažymėta voltais, matuojama 3500 milivoltų įtampa. Ką rodo prietaisas?",
+        "text": "Voltmetru, kurio skalė pažymėta voltais, matuojama 3500 mV įtampa. Ką rodo prietaisas?",
         "choice": [
           "0,035 V.",
           "0,35 V.",
@@ -4920,7 +4641,7 @@
         "answer": 1
       },
       {
-        "text": "Kuri balso telefonijos rūšis radijo mėgėjų dažniausiai naudojama radijo dažnių diapazonuose virš 10 MHz?",
+        "text": "Kuri balso telefonijos rūšis radijo mėgėjų dažniausiai naudojama radijo dažnių diapazonuosevirš 10 MHz?",
         "choice": [
           "USB.",
           "LSB.",
@@ -4976,14 +4697,14 @@
       {
         "text": "Kodėl RTTY režimu, prieš pradedant siųsti informaciją, kartais siunčiama ženklų seka „RYRYRY…“?",
         "choice": [
-          "Tam, kad būtų suteikta galimybė tiksliai suderinti radijo stotį signalų priėmimo vietoje.",
-          "Radijo stoties identifikavimo tikslu.",
+          "Tam, kad būtų suteikta galimybė tiksliai suderinti radijo ryšio stotį signalų priėmimo vietoje.",
+          "Radijo ryšio stoties identifikavimo tikslu.",
           "Tam, kad prieš pradedant darbą būtų įsitikinta, kad siųstuvas veikia gerai."
         ],
         "answer": 0
       },
       {
-        "text": "Kuris skaitmeninis informacijos siuntimo būdas trumposiomis bangomis labiausiai paplitęs?",
+        "text": "Kuris skaitmeninis informacijos siuntimo būdas dekametrinėmis bangomis labiausiai paplitęs?",
         "choice": [
           "DTMF.",
           "CTCSS.",
@@ -5028,7 +4749,7 @@
         "answer": 0
       },
       {
-        "text": "Kas yra radijo mėgėjų palydovo periodas?",
+        "text": "Kas yra radijo mėgėjų Žemės palydovo periodas?",
         "choice": [
           "Laikas, per kurį palydovas apsisuka aplink savo ašį.",
           "Laikas, per kurį palydovas iš apogėjaus pereina į perigėjų.",
@@ -5040,7 +4761,7 @@
         "text": "Kokia sąlyga būtina tam, kad įvyktų tiesioginis radijo ryšys tarp dviejų korespondentų per dirbtinį Žemės palydovą?",
         "choice": [
           "Abu korespondentai turi „matyti“ tą patį palydovą tuo pačiu metu.",
-          "Abiejose radijo stotyse turi būti sumontuotos didelio stiprinimo antenos.",
+          "Abiejose radijo ryšio stotyse turi būti sumontuotos didelio stiprinimo antenos.",
           "Pasirinktas palydovas turi pasiekti apogėjų."
         ],
         "answer": 0
@@ -5048,7 +4769,7 @@
       {
         "text": "Kodėl dirbtinio Žemės palydovo į Žemę spinduliuojamo signalo dažnis kinta kelių kilohercų ribose?",
         "choice": [
-          "Pasireiškia Doplerio efektas dėl atstumo kitimo tarp palydovo ir antžeminės radijo stoties.",
+          "Pasireiškia Doplerio efektas dėl atstumo kitimo tarp palydovo ir antžeminės radijo ryšio stoties.",
           "Dėl palydovą veikiančios nesvarumo būklės.",
           "Dėl palydovo sukimosi apie savo ašį."
         ],
@@ -5084,7 +4805,7 @@
       {
         "text": "Kas yra meteorinis ryšys?",
         "choice": [
-          "Ryšys, kai panaudojamos meteorologinės radijo stotys.",
+          "Ryšys, kai panaudojamos meteorologinės radijo ryšio stotys.",
           "Ryšys, kai krintantys meteorai sustiprina radijo signalus.",
           "Ryšys, kai radijo bangos atsispindi nuo jonizuotų meteorų pėdsakų."
         ],
@@ -5163,7 +4884,7 @@
         "answer": 2
       },
       {
-        "text": "Antena sujungta su radijo stotimi ilgu kabeliu. Kurio dažnio radijo signalas kabelyje slopinamas labiausiai?",
+        "text": "Antena sujungta su radijo ryšio stotimi ilgu kabeliu. Kurio dažnio radijo signalas kabelyje slopinamas labiausiai?",
         "choice": [
           "Didžiausio.",
           "Mažiausio.",
@@ -5253,7 +4974,7 @@
         "answer": 1
       },
       {
-        "text": "Ryšiams per palydovą skirta antenų sistema turi turėti galimybę ne tik suktis pagal azimutą, bet ir keisti pakėlimo kampą. Kodėl to reikia?",
+        "text": "Ryšiams per Žemės palydovą skirta antenų sistema turi turėti galimybę ne tik suktis pagal azimutą, bet ir keisti pakėlimo kampą. Kodėl to reikia?",
         "choice": [
           "Kad būtų išvengta Žemėje sukeliamų trukdžių.",
           "Kad galima būtų keisti antenų poliarizaciją.",
@@ -5266,21 +4987,21 @@
         "choice": [
           "Elektrostatinis ir magnetinis laukas.",
           "Statinis elektrinis ir magnetinis laukas.",
-          "Kintamas elektrinis ir kintamas magnetinis laukas."
+          "Periodiškai besikeičiantys elektrinis ir magnetinis laukai."
         ],
         "answer": 2
       },
       {
         "text": "Kas yra radijo bangos?",
         "choice": [
-          "Elektromagnetinės bangos nuo 9 kHz iki 3000 GHz.",
-          "Iš garsiakalbio sklindančios bangos nuo 20 Hz iki 20 000 Hz.",
-          "Elektromagnetinės bangos ilgesnės kaip 3 kHz."
+          "Elektromagnetinės bangos, kurių dažnis nuo 9 kHz iki 3000 GHz.",
+          "Iš garsiakalbio sklindančios bangos, kurių dažnis nuo 20 Hz iki 20 000 Hz.",
+          "Elektromagnetinės bangos, kurių dažnis mažesnis kaip 3 kHz."
         ],
         "answer": 0
       },
       {
-        "text": "Koks yra elektromagnetinių bangų greitis?",
+        "text": "Koks yra elektromagnetinių bangų sklidimo greitis?",
         "choice": [
           "Apie 300 000 km/val.",
           "Apie 300 000 km/s.",
@@ -5307,7 +5028,7 @@
         "answer": 2
       },
       {
-        "text": "Kas yra elektromagnetinės bangos poliarizaciją?",
+        "text": "Kas yra elektromagnetinės bangos poliarizacija?",
         "choice": [
           "Elektrinio ir magnetinio lauko vektorių padėtis Žemės paviršiaus atžvilgiu.",
           "Maksimalus bangos greitis, kurį riboja atmosferos poliarizacija.",
@@ -5325,7 +5046,7 @@
         "answer": 0
       },
       {
-        "text": "Kuri troposferos dalis leidžia užmegzti tolimus radijo ryšius trumposiomis bangomis?",
+        "text": "Kuri troposferos dalis leidžia užmegzti tolimus radijo ryšius dekametrinėmis bangomis?",
         "choice": [
           "Biosfera.",
           "Jonosfera.",
@@ -5347,7 +5068,7 @@
         "choice": [
           "Žymiai pagerėja sąlygos tolimiems radijo ryšiams 80 metrų diapazone.",
           "Žymiai pagerėja sąlygos tolimiems radijo ryšiams 10 metrų diapazone.",
-          "Tolimų stočių signalai, sklindantys trumposiomis bangomis, tampa silpni."
+          "Tolimų stočių signalai, sklindantys dekametrinėmis bangomis, tampa silpni."
         ],
         "answer": 1
       },
@@ -5363,8 +5084,8 @@
       {
         "text": "Kurios radijo bangos naktį silpniau atsispindi nuo jonosferos?",
         "choice": [
-          "Trumposios žemesniųjų dažnių srityje.",
-          "Trumposios aukštesniųjų dažnių srityje",
+          "Dekametrinės žemesniųjų dažnių srityje.",
+          "Dekametrinės aukštesniųjų dažnių srityje",
           "Visų vienodai."
         ],
         "answer": 1
@@ -5406,7 +5127,7 @@
         "answer": 0
       },
       {
-        "text": "Kas atsitiks UTB radijo bangoms, jei jų kelyje bus metalinių statinių?",
+        "text": "Kas atsitiks metrinėms radijo bangoms, jei jų kelyje bus metalinių statinių?",
         "choice": [
           "Banga aplenks statinius.",
           "Banga atsispindės nuo statinių.",
@@ -5433,7 +5154,7 @@
         "answer": 2
       },
       {
-        "text": "Sklindant signalui trumposiomis radijo bangomis, nuo kelių dešimčių iki kelių šimtų, o kartais ir kelių tūkstančių kilometrų atstumu signalų neįmanoma priimti. Kodėl?",
+        "text": "Sklindant signalui dekametrinėmis radijo bangomis, nuo kelių dešimčių iki kelių šimtų, o kartais ir kelių tūkstančių kilometrų atstumu signalų neįmanoma priimti. Kodėl?",
         "choice": [
           "Radijo bangos, patekusios į jonosferą, gali būti jos atspindėtos tik tuo atveju, jei radijo bangų susikirtimo su jonosfera kampas yra mažesnis už kritinį.",
           "Išsiųstas signalas negirdimas, kol sklinda dideliais miškų masyvais, o iš juos kirtęs vėl yra girdimas.",
@@ -5451,11 +5172,11 @@
         "answer": 1
       },
       {
-        "text": "Kas labiausiai gali pakenkti radijo stoties operatoriaus sveikatai?",
+        "text": "Kas labiausiai gali pakenkti radijo ryšio stoties operatoriaus sveikatai?",
         "choice": [
           "Nesertifikuotos aparatūros naudojimas.",
           "Neigiamas kaimynų požiūris į radijo mėgėjus.",
-          "Elektros smūgis ir radijo dažnių spinduliavimas."
+          "Elektromagnetinės spinduliuotės žalingas poveikis."
         ],
         "answer": 2
       },
@@ -5482,12 +5203,12 @@
         "choice": [
           "Bet kokią lazdą ar kitą panašų daiktą.",
           "Sausą, elektros srovei nelaidžią lazdą.",
-          "Tik daiktą, pagamintą iš dielektriko, kurio varža ne mažesnė kaip 1018 W."
+          "Tik daiktą, pagamintą iš dielektriko, kurio varža ne mažesnė kaip 1018 Ω."
         ],
         "answer": 1
       },
       {
-        "text": "Kodėl nereikėtų naudotis galios stiprintuvu kol jo metalinis korpusas yra atviras?",
+        "text": "Kodėl nereikėtų naudotis galios stiprintuvu, kol jo metalinis korpusas yra atviras?",
         "choice": [
           "Dėl atviro korpuso jo viduje gali susidaryti kritinis temperatūrinis režimas.",
           "Kad būtų išvengta atsitiktinio prisilietimo prie aukštos įtampos grandinių ir sumažintas radijo dažnių spinduliavimas operatoriaus aplinkoje.",
@@ -5508,7 +5229,7 @@
         "text": "Prie ko reikėtų prijungti visos naudojamos aparatūros metalinius korpusus, kad būtų geriausiai apsisaugota nuo elektros srovės poveikio?",
         "choice": [
           "Prie antenos.",
-          "Prie vandentiekio vamzdžių ar apšildymo radiatorių.",
+          "Prie vandentiekio vamzdžių.",
           "Prie geros kokybės įžeminimo."
         ],
         "answer": 2
@@ -5517,13 +5238,13 @@
         "text": "Tarp dviejų daugiaaukščių namų, esančių skirtingose gatvės pusėse, vyksta troleibusų eismas. Kodėl negalima pakabinti antenos tarp šių namų stogų?",
         "choice": [
           "Gali sutrikti troleibusų eismas.",
-          "Nutrūkusi antena gali nukristi ant troleibusų energijos tiekimo linijos ir tapti elektros traumų priežastimi.",
-          "Dėl troleibusų linijos elektromagnetinio spinduliavimo pablogės ryšio sąlygos."
+          "Nutrūkusi antena gali nukristi ant troleibusų elektros perdavimo linijos kontaktinio tinklo ir tapti elektros traumų priežastimi.",
+          "Dėl troleibusų elektros perdavimo linijos elektromagnetinės spinduliuotės pablogės radijo ryšio sąlygos."
         ],
         "answer": 1
       },
       {
-        "text": "Kodėl negalima pakabinti antenos tarp dviejų taškų, esančių virš elektros tiekimo linijos?",
+        "text": "Kodėl negalima pakabinti antenos tarp dviejų taškų, esančių virš elektros perdavimo linijos?",
         "choice": [
           "Galimi trukdžiai imtuve nuo elektros perdavimo linijos.",
           "Antena gali nukristi ant elektros perdavimo linijos ir tapti radijo mėgėjo žūties priežastimi.",
@@ -5532,7 +5253,7 @@
         "answer": 1
       },
       {
-        "text": "Koks matavimo vienetas geriausiai atspindi radijo dažnių laukų biologinį poveikį?",
+        "text": "Koks matavimo vienetas geriausiai atspindi radijo dažnių elektromagnetinio lauko biologinį poveikį?",
         "choice": [
           "Elektrinio lauko stipris V/m.",
           "Galios tankis W/cm2.",
@@ -5541,7 +5262,7 @@
         "answer": 1
       },
       {
-        "text": "Koks gali būti didelių lygių radijo dažnių energijos poveikis žmogaus kūno audiniams?",
+        "text": "Koks gali būti didelės galios elektromagnetinio lauko energijos poveikis žmogaus kūno audiniams?",
         "choice": [
           "Elektromagnetinis apsinuodijimas.",
           "Padidėja vidinė energija.",
@@ -5552,14 +5273,14 @@
       {
         "text": "Kokios radijo bangos turi didžiausią neigiamą įtaką akims?",
         "choice": [
-          "Ilgos.",
-          "Trumpos.",
-          "Ultratrumpos."
+          "Kilometrinės.",
+          "Dekametrinės.",
+          "Metrinės."
         ],
         "answer": 2
       },
       {
-        "text": "Kurio iš čia išvardytų radijo dažnių energija akims yra pavojingiausia?",
+        "text": "Kurio iš čia išvardytų radijo dažnių elektromagnetinio lauko energija akims yra pavojingiausia?",
         "choice": [
           "3,5 MHz.",
           "144 MHz.",
@@ -5568,22 +5289,13 @@
         "answer": 2
       },
       {
-        "text": "Kurio diapazono radijo dažnių energiją žmogaus kūnas labiausiai absorbuoja?",
+        "text": "Kurio diapazono radijo dažnių elektromagnetinio lauko energiją žmogaus kūnas labiausiai absorbuoja?",
         "choice": [
           "3–30 MHz.",
           "30–300 MHz.",
           "0,3–3 GHz."
         ],
         "answer": 1
-      },
-      {
-        "text": "Kaip galima sumažinti išorinio radijo spinduliavimo poveikį gyvenamoje patalpoje?",
-        "choice": [
-          "Didinant antenų aukštį virš gyvenamų patalpų.",
-          "Vietoje 75 omų naudojant 50 omų banginės varžos kabelį.",
-          "Tinka visos čia išvardytos priemonės."
-        ],
-        "answer": 0
       },
       {
         "text": "Kodėl nereikėtų stovėti šalia antenos, kuri prijungta prie veikiančio 1 kW išėjimo galios siųstuvo?",
@@ -5604,7 +5316,7 @@
         "answer": 2
       },
       {
-        "text": "Norint apsaugoti žmones nuo radijo dažnių laukų, radijo mėgėjų radijo stoties antenos turi būti sumontuotos:",
+        "text": "Norint apsaugoti žmones nuo elektromagnetinės spinduliuotės poveikio, radijo mėgėjų radijo ryšio stoties antenos turi būti sumontuotos:",
         "choice": [
           "Ant nemetalinio stiebo.",
           "Taip, kad daugumos elementų poliarizacija būtų vertikali.",
@@ -5613,34 +5325,34 @@
         "answer": 2
       },
       {
-        "text": "Kodėl kryptinė antena, spinduliuojanti didelių lygių energiją, turėtų būti pakelta aukščiau už aplinkinius pastatus?",
+        "text": "Kodėl kryptinė antena, spinduliuojanti didelės galios signalus, turėtų būti pakelta aukščiau už aplinkinius pastatus?",
         "choice": [
-          "Kad didelės energijos srautai nebūtų nukreipti į žmones, esančius tuose pastatuose.",
-          "Kad radijo dažnių energijos atspindžiai nemažintų antenos naudingo veikimo koeficiento.",
+          "Kad spinduliuojamo signalo elektromagnetinio lauko energijos srautai nebūtų nukreipti į žmones, esančius tuose pastatuose.",
+          "Kad radijo dažnių elektromagnetinio lauko energijos atspindžiai nemažintų antenos naudingo veikimo koeficiento.",
           "Kad aplinkiniai statiniai neužstotų tiesiausios krypties į korespondentą."
         ],
         "answer": 0
       },
       {
-        "text": "Ką reikėtų padaryti prieš pradedant taisyti anteną?",
+        "text": "Ką reikėtų padaryti prieš pradedant remontuoti anteną?",
         "choice": [
-          "Įsitikinti, kad antena atjungta nuo aparatūros.",
+          "Įsitikinti, kad antena atjungta nuo siųstuvo.",
           "Įsitikinti, kad antenos pagrindas įžemintas.",
           "Išjungti pagrindinį namo elektros linijos jungiklį."
         ],
         "answer": 0
       },
       {
-        "text": "Kodėl jūsų portatyvinio UTB siųstuvo-imtuvo „guminė“ antena neturėtų būti perdaug arti galvos siuntimo metu?",
+        "text": "Kodėl jūsų nešiojamo labai aukštų dažnių siųstuvo-imtuvo „guminė“ antena neturėtų būti perdaug arti galvos siuntimo metu?",
         "choice": [
           "Kad antena galėtų spinduliuoti visomis kryptimis vienodai.",
-          "Kad būtų išvengta radijo dažnių energijos sveikatai žalingo spinduliavimo.",
+          "Kad būtų išvengta elektromagnetinio lauko energijos žalingo poveikio sveikatai.",
           "Kad būtų išvengta galios nuostolių."
         ],
         "answer": 1
       },
       {
-        "text": "Kaip reikėtų laikyti nešiojamą UTB siųstuvą-imtuvą siuntimo metu?",
+        "text": "Kaip reikėtų laikyti nešiojamą labai aukštų dažnių siųstuvą-imtuvą siuntimo metu?",
         "choice": [
           "Vertikaliai.",
           "Nukreiptą į korespondentą.",
@@ -5649,7 +5361,7 @@
         "answer": 2
       },
       {
-        "text": "Ką reikėtų daryti tam, kad būtų sumažinta radijo dažnių energijos, atsirandančios veikiant nešiojamam siųstuvui 1240 MHz dažniu, įtaka?",
+        "text": "Ką reikėtų daryti tam, kad būtų sumažinta elektromagnetinio lauko energijos, atsirandančios veikiant nešiojamam siųstuvui 1240 MHz dažniu, įtaka?",
         "choice": [
           "Įjungti aukštųjų dažnių filtrą.",
           "Laikyti anteną kuo toliau nuo akių.",
@@ -5658,7 +5370,7 @@
         "answer": 1
       },
       {
-        "text": "Kur turėtų būti sumontuota UTB radijo stoties antena automobilyje, siekiant geriau apsaugoti vairuotoją ir automobilio keleivius nuo radijo dažnių spinduliavimo?",
+        "text": "Kur turėtų būti sumontuota labai aukštų dažnių radijo ryšio stoties antena automobilyje, siekiant geriau apsaugoti vairuotoją ir keleivius nuo elektromagnetinės spinduliuotės poveikio?",
         "choice": [
           "Ant užpakalinio automobilio bamperio.",
           "Ant priekinio automobilio sparno.",
