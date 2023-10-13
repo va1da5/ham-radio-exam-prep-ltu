@@ -15,7 +15,7 @@ export const getHumanTime = (totalSeconds: number) => {
   return `${zeroPad(hours)}:${zeroPad(minutes)}:${zeroPad(seconds)}`;
 };
 
-export const shuffle = (array) => {
+export const shuffle = (array: unknown[]) => {
   let currentIndex = array.length,
     randomIndex;
 

@@ -1,5 +1,9 @@
 # Radijo Mėgėjų kvalifikacijos egzaminų pasiruošimo testai
 
+## Bugs
+
+- [ ] Allows to create empty quiz and then fails to show anything or escape from it.
+
 ## Nuorodos
 
 - [RADIJO MĖGĖJŲ KVALIFIKACINIAI EGZAMINAI](https://www.rrt.lt/radijo-spektras/radijo-megejai/radijo-megeju-egzaminai/)

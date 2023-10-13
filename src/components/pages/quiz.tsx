@@ -1,22 +1,13 @@
 import { Toggle } from "@/components/ui/toggle";
-import {
-  AlertTriangle,
-  CheckCircle,
-  ChevronLeft,
-  ChevronRight,
-  Flag,
-  Timer,
-} from "lucide-react";
+import { Flag, Timer } from "lucide-react";
 
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-
+import { Button } from "@/components/ui/button";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
-import { Button } from "@/components/ui/button";
 
 import {
   AlertDialog,
@@ -30,111 +21,30 @@ import {
   AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
 
-import { useEffect, useState } from "react";
+import { Pagination } from "@/components/ui/pagination";
+import QuestionStatement from "@/components/ui/question-statement";
 import { getHumanTime } from "@/lib/utils";
-import QuestionStatement from "../ui/questionStatement";
-
-const Pagination = ({ current, length, onClick }) => {
-  return (
-    <div className="flex w-full justify-center">
-      <nav aria-label="Page navigation example">
-        <ul className="flex items-center -space-x-px h-10 text-base">
-          <li>
-            <a
-              href="#"
-              onClick={() => {
-                if (current > 1) onClick(current - 1);
-              }}
-              className="flex items-center justify-center px-4 h-10 ml-0 leading-tight text-gray-500 bg-white border border-gray-300 rounded-l-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
-            >
-              <span className="sr-only">Atgal</span>
-              <ChevronLeft />
-            </a>
-          </li>
-
-          {Array.from({ length: current - 1 }, (x, i) => i + 1)
-            .slice(-4)
-            .map((item) => (
-              <li key={item}>
-                <a
-                  href="#"
-                  onClick={() => onClick(item)}
-                  className="flex items-center justify-center px-4 h-10 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
-                >
-                  {item}
-                </a>
-              </li>
-            ))}
-
-          <li>
-            <a
-              href="#"
-              aria-current="page"
-              className="z-10 flex items-center justify-center px-4 h-10 leading-tight text-blue-600 border border-blue-300 bg-blue-50 hover:bg-blue-100 hover:text-blue-700 dark:border-gray-700 dark:bg-gray-700 dark:text-white"
-            >
-              {current}
-            </a>
-          </li>
-
-          {Array.from({ length: 5 }, (x, i) => i + 1 + current)
-            .filter((item) => item <= length)
-            .map((item) => (
-              <li key={item}>
-                <a
-                  href="#"
-                  onClick={() => onClick(item)}
-                  className="flex items-center justify-center px-4 h-10 leading-tight text-gray-500 bg-white border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
-                >
-                  {item}
-                </a>
-              </li>
-            ))}
-          <li>
-            <a
-              href="#"
-              onClick={() => {
-                if (current < length) onClick(current + 1);
-              }}
-              className="flex items-center justify-center px-4 h-10 leading-tight text-gray-500 bg-white border border-gray-300 rounded-r-lg hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white"
-            >
-              <span className="sr-only">Next</span>
-              <ChevronRight />
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  );
-};
-
-export const Result = ({
-  wasCorrect,
-  explanation,
-}: {
-  wasCorrect: boolean;
-  explanation: string | null;
-}) => {
-  return (
-    <Alert variant={wasCorrect ? "correct" : "incorrect"}>
-      {wasCorrect ? (
-        <CheckCircle className="h-4 w-4" />
-      ) : (
-        <AlertTriangle className="h-4 w-4" />
-      )}
-
-      <AlertTitle className="font-medium">
-        Atsakymas {wasCorrect ? "teisingas" : "neteisingas"}!
-      </AlertTitle>
-      {explanation && explanation.length > 0 && (
-        <AlertDescription>{explanation}</AlertDescription>
-      )}
-    </Alert>
-  );
-};
+import { useEffect, useState } from "react";
+import { Question, QuizTracker } from "@/types";
 
 type Props = {
-  questions: any;
+  questions: Question[];
+  flags: number[];
   title: string;
+  quiz: QuizTracker;
+  onExit: () => void;
+  onAnswer: ({
+    questionIdx,
+    answerIdx,
+    correct,
+  }: {
+    questionIdx: number;
+    answerIdx: string;
+    correct: boolean;
+  }) => void;
+  onFlag: (questionIdx: number) => void;
+  onQuestionChange: (next: number) => void;
+  onTimerTick: () => void;
 };
 
 export default function Quiz({
@@ -159,7 +69,7 @@ export default function Quiz({
 
   const [status, setStatus] = useState({
     answered: false,
-    answerSelected: null,
+    answerSelected: "",
   });
 
   const question =
@@ -169,12 +79,12 @@ export default function Quiz({
 
   if (!question) return;
 
-  const validateAnswer = (answer) => {
+  const validateAnswer = (answer: string) => {
     if (status.answered) return;
 
     onAnswer({
-      questionIdx: question.idx,
-      anwserIdx: answer,
+      questionIdx: question.idx as number,
+      answerIdx: answer,
       correct: answer === question.answer.toString(),
     });
 
@@ -186,9 +96,9 @@ export default function Quiz({
   };
 
   return (
-    <div className="container lg:w-1/2 lg:mx-auto min-h-2/3 py-10 px-10 bg-white shadow-md rounded-md">
-      <div className="flex justify-between">
-        <div className="flex gap-2 items-center">
+    <div className="rounded-md bg-white px-7 py-3 md:px-10 md:py-10 md:shadow-md">
+      <div className="flex flex-col md:flex-row md:justify-between">
+        <div className="flex items-center gap-2">
           <h3 className="text-2xl font-semibold">
             Klausimas {quiz.currentQuestion + 1} iš {questions.length}
           </h3>
@@ -199,12 +109,12 @@ export default function Quiz({
                   <div>
                     <Toggle
                       onPressedChange={() => {
-                        onFlag(question.idx);
+                        onFlag(question.idx as number);
                       }}
                       pressed={
-                        flags && question && flags.includes(question.idx)
-                          ? true
-                          : false
+                        flags &&
+                        question &&
+                        flags.includes(question.idx as number)
                       }
                       aria-label="Pažymėti klausimą"
                     >
@@ -220,21 +130,21 @@ export default function Quiz({
           </div>
         </div>
 
-        <div className="flex gap-1 items-center text-lg text-muted-foreground pr-1 w-[105px]">
+        <div className="mb-2 flex items-center gap-1 pr-1 text-lg text-muted-foreground md:mb-0 md:w-[105px]">
           <Timer /> {getHumanTime(quiz.time)}
         </div>
       </div>
 
-      <p className="text-muted-foreground">{title}</p>
+      <p className="hidden text-muted-foreground md:block">{title}</p>
 
       <QuestionStatement
         question={question}
         answered={status.answered}
-        answerSelected={status.answerSelected}
+        answerSelected={status.answerSelected as string}
         onValueChange={validateAnswer}
       />
 
-      <div className="flex w-full justify-center gap-2 my-10">
+      <div className="my-10 flex w-full justify-between gap-2 md:justify-center">
         <Button
           className="text-lg"
           disabled={
@@ -244,7 +154,7 @@ export default function Quiz({
             setStatus((current) => ({
               ...current,
               answered: false,
-              answerSelected: null,
+              answerSelected: "",
             }));
 
             onQuestionChange(quiz.currentQuestion + 1);
@@ -282,7 +192,7 @@ export default function Quiz({
           setStatus((current) => ({
             ...current,
             answered: false,
-            answerSelected: null,
+            answerSelected: "",
           }));
 
           onQuestionChange(page - 1);

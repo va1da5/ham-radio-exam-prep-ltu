@@ -1,9 +1,10 @@
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
-import { CheckCircle, XCircle } from "lucide-react";
+import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
+import { Question } from "@/types";
 import clsx from "clsx";
+import { CheckCircle, XCircle } from "lucide-react";
 
-const Outcome = ({ correct }) => {
+const Outcome = ({ correct }: { correct: boolean }) => {
   return (
     <div className="w-full">
       <div
@@ -12,9 +13,9 @@ const Outcome = ({ correct }) => {
         }`}
       >
         {correct ? (
-          <CheckCircle className="w-6 h-6" strokeWidth={2} />
+          <CheckCircle className="h-6 w-6" strokeWidth={2} />
         ) : (
-          <XCircle className="w-6 h-6" strokeWidth={2} />
+          <XCircle className="h-6 w-6" strokeWidth={2} />
         )}
         <p>Atsakymas {!correct ? "ne" : ""}teisingas!</p>
       </div>
@@ -22,10 +23,15 @@ const Outcome = ({ correct }) => {
   );
 };
 
-type Props = {};
+type Props = {
+  question: Question;
+  answered: boolean;
+  answerSelected: string;
+  tight?: boolean;
+  onValueChange?: (value: string) => void;
+};
 
 export default function QuestionStatement({
-  index,
   question,
   answered,
   answerSelected,
@@ -36,14 +42,14 @@ export default function QuestionStatement({
   return (
     <div className="my-5">
       <p className={`mb-${tight ? "3" : "10"} text-xl`}>
-        {<strong>{question.idx + 1}. </strong>}
+        {<strong>{(question.idx as number) + 1}. </strong>}
         {question.text}
       </p>
 
       {question.image && question.image.length > 0 && (
         <div className="p-3">
           <img
-            className="object-contain max-h-[350px]"
+            className="max-h-[350px] object-contain"
             alt={question.image}
             src={question.image}
           />
@@ -51,7 +57,7 @@ export default function QuestionStatement({
       )}
 
       <RadioGroup
-        className={`my-${tight ? "3" : "8"} text-xl`}
+        className={clsx("text-xl", tight ? "my-3" : "my-4 md:my-8")}
         value={answerSelected}
         onValueChange={onValueChange}
       >
@@ -60,28 +66,18 @@ export default function QuestionStatement({
             key={index}
             className={clsx(
               "flex items-center space-x-2",
-              tight ? "my-1" : "my-3"
+              tight ? "my-1" : "my-2 md:my-3"
             )}
           >
             <RadioGroupItem
               value={index.toString()}
               id={`radio-id-${index}`}
-              className={clsx(
-                answered && [
-                  answerSelected === question.answer.toString()
-                    ? "text-green-600"
-                    : "text-red-600",
-                ],
-                answered && [
-                  question.answer === index ? "border-green-500" : "",
-                ],
-                answered && [
-                  answerSelected !== question.answer.toString() &&
-                  question.answer == index
-                    ? "border-4"
-                    : "",
-                ]
-              )}
+              data-answered={answered}
+              data-correct={answered && question.answer === index}
+              data-selected-correct={
+                answered && answerSelected === question.answer.toString()
+              }
+              className="data-[answered=true]:data-[correct=true]:data-[selected-correct=false]:border-4 data-[answered=true]:data-[correct=true]:border-green-500 data-[answered=true]:data-[correct=false]:text-red-600 data-[answered=true]:data-[correct=true]:text-green-500"
             />
             <Label className="text-lg" htmlFor={`radio-id-${index}`}>
               {choice}
@@ -89,13 +85,10 @@ export default function QuestionStatement({
           </div>
         ))}
       </RadioGroup>
+
       <div
-        className={clsx(
-          "mt-5",
-          answered && parseInt(answerSelected) > -1
-            ? "opacity-100"
-            : "opacity-0"
-        )}
+        data-visible={answered && parseInt(answerSelected) > -1}
+        className="opacity-0 data-[visible=true]:opacity-100"
       >
         <Outcome correct={answerSelected === question.answer.toString()} />
       </div>
