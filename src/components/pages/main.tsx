@@ -20,9 +20,9 @@ export default function Main({ questions, tracker, onTestStart }: Props) {
   return (
     <div className="bg-white px-10 py-10 md:rounded-md md:shadow-md">
       <h1 className="text-3xl font-semibold uppercase ">
-        Radijo mėgėjų kvalifikacinių egzaminų klausimai
+        Radijo mėgėjų egzaminų pasiruošimo testai
       </h1>
-      <p className="mt-5 text-lg">
+      <p className="mt-10 text-lg">
         Sveiki atvykę į internetinį puslapį, skirtą praktikuotis ir pasiruošti
         radijo mėgėjų{" "}
         <a
