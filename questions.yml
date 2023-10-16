@@ -2500,7 +2500,7 @@ a:
         - Konfidencialią informaciją, pažeidžiančią asmens privataus gyvenimo neliečiamumą.
         - Pranešimus, pažeidžiančius autorių, gretutines ir kitas intelektinės nuosavybės teises.
         - Visus aukščiau nurodytus pranešimus.
-      answer: 0
+      answer: 2
 
     - text: Kuriuos pranešimus draudžiama perduoti radijo mėgėjams?
       choice:
