@@ -146,7 +146,7 @@
           "Lietuvos Respublikoje ir valstybėse, kurios įgyvendino CEPT rekomendaciją ECC/REC(05)06 „CEPT pradedančiojo radijo mėgėjo leidimas.",
           "Tik valstybėse, kurios įgyvendino CEPT rekomendacijas."
         ],
-        "answer": 0
+        "answer": 1
       },
       {
         "text": "Kas turi teisę panaikinti leidimo užsiimti radijo mėgėjų veikla galiojimą?",
@@ -3146,7 +3146,7 @@
           "Pranešimus, pažeidžiančius autorių, gretutines ir kitas intelektinės nuosavybės teises.",
           "Visus aukščiau nurodytus pranešimus."
         ],
-        "answer": 0
+        "answer": 2
       },
       {
         "text": "Kuriuos pranešimus draudžiama perduoti radijo mėgėjams?",

@@ -18,13 +18,14 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { shuffle } from "@/lib/utils";
+import { getStoredValue, shuffle, storeValue } from "@/lib/utils";
 
 import { QuestionSetTracker, Quiz } from "@/types";
 
-// @ts-expect-error does not properly import types
-import useLocalStorage from "beautiful-react-hooks/useLocalStorage";
 import { EXAM_QUESTIONS } from "@/constants";
+import { useEffect, useState } from "react";
+
+const LOCAL_STORAGE_QUIZ_FORM = "__menu_options"
 
 type Props = {
   questions: Quiz;
@@ -39,14 +40,18 @@ type QuizFormTypes = {
 };
 
 export const QuizForm = ({ questions, tracked, onQuizCreation }: Props) => {
-  const [quizForm, setQuizForm] = useLocalStorage<QuizFormTypes>(
-    "__menu_options",
-    {
+
+  const [quizForm, setQuizForm] = useState<QuizFormTypes>(getStoredValue(
+    LOCAL_STORAGE_QUIZ_FORM, {
       questions: "all",
       numberOfQuestions: "20",
       order: "sequential",
-    }
-  );
+    } as QuizFormTypes
+  ));
+
+  useEffect(()=> {
+    storeValue(LOCAL_STORAGE_QUIZ_FORM, quizForm)
+  }, [quizForm])
 
   const unanswered = () => {
     return questions.question

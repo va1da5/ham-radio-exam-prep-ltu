@@ -1,10 +1,18 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
-// @ts-expect-error does not properly import types
-import useLocalStorage from "beautiful-react-hooks/useLocalStorage";
 import { QuizForm } from "@/components/ui/quiz-form";
 import { Quizzes, Tracker } from "@/types";
 import { GITHUB_ISSUES, GITHUB_QUESTIONS, HAM_EXAM_GUIDE } from "@/constants";
+import { useEffect, useState } from "react";
+import { getStoredValue, storeValue } from "@/lib/utils";
+
+const LOCAL_STORAGE_TAB_NAME = "__menu_tab"
+
+// function getCurrentTab(){
+//   const value = localStorage.getItem(LOCAL_STORAGE_TAB_NAME);
+//   if (!value) return "a"
+//   return value;
+// }
 
 type Props = {
   questions: Quizzes;
@@ -13,7 +21,11 @@ type Props = {
 };
 
 export default function Main({ questions, tracker, onTestStart }: Props) {
-  const [tab, setTab] = useLocalStorage("__menu_tab", "a");
+  const [tab, setTab] = useState(getStoredValue(LOCAL_STORAGE_TAB_NAME, "a"));
+
+  useEffect(()=> {
+    storeValue(LOCAL_STORAGE_TAB_NAME, tab)
+  }, [tab])
 
   if (!questions || !tracker) return;
 

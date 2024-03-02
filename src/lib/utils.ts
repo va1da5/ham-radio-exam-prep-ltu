@@ -38,3 +38,20 @@ export const shuffle = (array: unknown[]) => {
 export const calcPercentage = (correct: number, all: number) => {
   return Math.round((100 * correct) / all);
 };
+
+export function getStoredValue<T>(name:string, defaultValue: T): ()=> T{
+  return () => {
+    const value = localStorage.getItem(name);
+    if (value===null) return defaultValue
+    try {
+      return JSON.parse(value)
+    }
+    catch(e){
+      return value;
+    }
+  }
+}
+
+export function storeValue<T>(name:string, obj: T){
+  localStorage.setItem(name, JSON.stringify(obj))
+}

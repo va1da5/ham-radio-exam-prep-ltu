@@ -1,8 +1,5 @@
 import Main from "@/components/pages/main";
 
-// @ts-expect-error does not properly import types
-import useLocalStorage from "beautiful-react-hooks/useLocalStorage";
-
 import { QuestionSetTracker, Quizzes, Tracker } from "@/types";
 import Quiz from "@/components/pages/quiz";
 import Review from "@/components/pages/review";
@@ -11,16 +8,20 @@ import questionsObject from "./assets/questions.json";
 import { Toaster } from "@/components/ui/toaster";
 import { useToast } from "@/components/ui/use-toast";
 import { GITHUB_REPO } from "@/constants";
+import { useEffect, useState } from "react";
+import { getStoredValue, storeValue } from "./lib/utils";
+
+const LOCAL_STORAGE_TRACKER = "__tracker"
 
 const questions = questionsObject as Quizzes;
 
 export default function App() {
   const { toast } = useToast();
-  const [tracker, setTracker] = useLocalStorage<Tracker>("__tracker", {
+  const [tracker, setTracker] = useState<Tracker>(getStoredValue(LOCAL_STORAGE_TRACKER,{
     quiz: {
       active: false,
       review: false,
-      level: null,
+      level: "b",
       questions: [],
       answers: {},
       currentQuestion: 0,
@@ -39,8 +40,11 @@ export default function App() {
         answeredIncorrect: [],
         flagged: [],
       },
-    },
-  });
+    }} as Tracker));
+
+  useEffect(()=> {
+    storeValue(LOCAL_STORAGE_TRACKER, tracker)
+  }, [tracker])
 
   const startTest = ({
     level,
