@@ -839,7 +839,7 @@
           "100 W",
           "1 000 W"
         ],
-        "answer": 2
+        "answer": 0
       },
       {
         "text": "Dažniais, kuriuose maksimalus signalo juostos plotis neturi viršyti 200 Hz, galima naudoti šią moduliavimo rūšį:",
