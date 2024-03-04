@@ -13,3 +13,4 @@
 - [Teisės užsiimti radijo mėgėjų veikla suteikimo tvarkos ir užsiėmimo šia veikla sąlygų aprašas](https://e-seimas.lrs.lt/portal/legalAct/lt/TAD/TAIS.267489/asr)
 - [Radijo mėgėjo etikos ir darbo eteryje kodeksas](https://www.iaru-r1.org/wp-content/uploads/2019/10/Lithuanian.pdf)
 - [shadcn UI](https://ui.shadcn.com/)
+- [Egzamino klausimai](https://hamradio.lt/wiki/Egzamino_klausimai)
