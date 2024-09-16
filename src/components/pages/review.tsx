@@ -8,7 +8,7 @@ const GoBack = ({ onClick }: { onClick: () => void }) => {
   return (
     <div className="flex w-full justify-end">
       <Button onClick={onClick} variant="ghost" className="text-lg">
-        Grįti į meniu <Undo2 className="ml-2" />
+        Grįžti į meniu <Undo2 className="ml-2" />
       </Button>
     </div>
   );
