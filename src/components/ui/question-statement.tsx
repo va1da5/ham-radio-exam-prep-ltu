@@ -77,7 +77,7 @@ export default function QuestionStatement({
               data-selected-correct={
                 answered && answerSelected === question.answer.toString()
               }
-              className="data-[answered=true]:data-[correct=true]:data-[selected-correct=false]:border-4 data-[answered=true]:data-[correct=true]:border-green-500 data-[answered=true]:data-[correct=false]:text-red-600 data-[answered=true]:data-[correct=true]:text-green-500"
+              className="min-h-6 min-w-6 data-[answered=true]:data-[correct=true]:data-[selected-correct=false]:border-4 data-[answered=true]:data-[correct=true]:border-green-500 data-[answered=true]:data-[correct=false]:text-red-600 data-[answered=true]:data-[correct=true]:text-green-500"
             />
             <Label className="text-lg" htmlFor={`radio-id-${index}`}>
               {choice}
