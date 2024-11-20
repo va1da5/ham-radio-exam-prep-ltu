@@ -2020,7 +2020,7 @@ a:
 
     - text: Koks maksimalus Lietuvos Respublikos ryšių reguliavimo tarnybos išduoto leidimo užsiimti radijo mėgėjų veikla terminas?
       choice:
-        - 5 metai.
+        - 10 metų.
         - 3 metai.
         - 1 metai.
       answer: 0
