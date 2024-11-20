@@ -2020,7 +2020,7 @@ a:
 
     - text: Koks maksimalus Lietuvos Respublikos ryšių reguliavimo tarnybos išduoto leidimo užsiimti radijo mėgėjų veikla terminas?
       choice:
-        - 5 metai.
+        - 10 metų.
         - 3 metai.
         - 1 metai.
       answer: 0
@@ -2178,7 +2178,7 @@ a:
       choice:
         - /m.
         - /mm.
-        - /am.
+        - /p.
       answer: 0
       # Papildant radijo šaukinį naudojant radijo ryšio stotį laive, galima naudoti /m simbolį. Šis simbolis nurodo, kad laivas naudoja mobilųjį radijo ryšį. Kitaip tariant, tai reiškia, kad laivas yra judantis ir gali keisti savo padėtį.
 
