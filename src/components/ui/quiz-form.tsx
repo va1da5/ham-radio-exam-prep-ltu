@@ -161,7 +161,7 @@ export const QuizForm = ({ questions, tracked, onQuizCreation }: Props) => {
             <SelectContent>
               <SelectGroup>
                 <SelectLabel>Klausimų skaičius</SelectLabel>
-                {[10, 20, 30, 40, 50, 60, 80, 100, 200, 300].map((item) => (
+                {[10, 20, 30, 40, 50, 60, 80, 100, 200, 300, 400].map((item) => (
                   <SelectItem key={item} value={item.toString()}>
                     {item.toString()}
                   </SelectItem>
